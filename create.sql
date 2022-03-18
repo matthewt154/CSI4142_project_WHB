@@ -43,6 +43,67 @@ DELETE from country WHERE country.countryname NOT IN ('Canada', 'United States',
 						  'Syrian Arab Republic', 'South Africa', 'Thailand');
 						  
 
+------- Education Dimension -------
+DROP TABLE IF EXISTS education_dim
+CREATE TABLE education_dim
+(
+country_name varchar, 
+country_code varchar,
+series_name varchar,
+series_code varchar,
+yr_2005 varchar,
+ yr_2006 varchar,
+ yr_2007 varchar,
+ yr_2008 varchar,
+ yr_2009 varchar,
+ yr_2010 varchar,
+ yr_2011 varchar,
+ yr_2012 varchar,
+ yr_2013 varchar,
+ yr_2014 varchar,
+ yr_2015 varchar,
+ yr_2016 varchar,
+ yr_2017 varchar,
+ yr_2018 varchar,
+ yr_2019 varchar,
+ yr_2020 varchar
+);
+
+COPY education_dim
+FROM 'C:\Users\Dell\Desktop\CSI4142\CSI4142_project_WHB\spreadsheets\raw_data_educationDimension.csv' --modify path 
+DELIMITER ','
+CSV HEADER;
+
+-----------Population Dimension ----------
+DROP TABLE IF EXISTS population_dim 
+CREATE TABLE population_dim
+(
+series_name varchar,
+series_code varchar,
+country_name varchar, 
+country_code varchar,
+yr_2005 varchar,
+ yr_2006 varchar,
+ yr_2007 varchar,
+ yr_2008 varchar,
+ yr_2009 varchar,
+ yr_2010 varchar,
+ yr_2011 varchar,
+ yr_2012 varchar,
+ yr_2013 varchar,
+ yr_2014 varchar,
+ yr_2015 varchar,
+ yr_2016 varchar,
+ yr_2017 varchar,
+ yr_2018 varchar,
+ yr_2019 varchar,
+ yr_2020 varchar
+);
+
+COPY population_dim
+FROM 'C:\Users\Dell\Desktop\CSI4142\CSI4142_project_WHB\spreadsheets\raw_data_populationDimension.csv' --modify path 
+DELIMITER ','
+CSV HEADER;
 
 ------------------------- Create Fact Table
 DROP TABLE IF EXISTS fact;
