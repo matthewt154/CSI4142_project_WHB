@@ -1,0 +1,114 @@
+Country Name,Country Code,Series,Series Code,2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
+Canada,CAN,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,CAN,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,CAN,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,CAN,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,..,..,..,..,..,..,..,99.45167,99.43231,99.39113,99.58907,99.95587,99.8825,99.78809,..,..
+Canada,CAN,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,..,..,..,..,..,..,..,99.69906,99.51128,99.71264,99.92752,..,..,..,..,..
+Canada,CAN,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,..,..,..,..,..,..,..,85.99599,85.15561,83.98714,84.69594,91.28789,92.75174,93.88401,..,..
+Canada,CAN,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,4.60717,6.22103,6.42685,7.55044,9.07381,9.7117,10.44873,..,7.7718,..,..,..,..,..,..,..
+Canada,CAN,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,..,..,..,..,..,..,..,..,..,..,7.09825,..,..,..,..,..
+Canada,CAN,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,CAN,"Completion rate, primary education, both sexes (%)",UIS.CR.1,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,CAN,"Completion rate, primary education, female (%)",UIS.CR.1.F,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,CAN,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,..,..,..,..,..,1.07512,..,..,..,..,..,..,..,..,..,..
+United States,USA,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,USA,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,USA,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,USA,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,99.43481,99.30372,99.77238,99.62092,98.33983,97.63436,96.38975,97.26517,97.50924,97.97434,98.19414,99.64003,99.57562,99.42579,..,..
+United States,USA,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,98.85082,99.54269,99.3834,98.97471,99.79511,99.05039,99.7839,99.0221,98.63796,97.76647,99.15387,99.69572,99.79625,99.68881,..,..
+United States,USA,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,91.43687,90.22148,90.49118,90.43336,92.05359,90.83432,92.1107,91.97923,92.08272,93.20093,93.92387,95.27139,95.21186,96.40283,..,..
+United States,USA,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,..,..,..,..,..,..,..,..,8.60063,8.71158,..,..,..,..,..,..
+United States,USA,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,..,..,..,..,..,..,..,..,7.79522,7.71347,8.06796,8.56974,9.0116,..,..,..
+United States,USA,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,..,..,..,..,..,..,..,..,7.79522,7.71347,8.06796,8.56974,9.0116,..,..,..
+United States,USA,"Completion rate, primary education, both sexes (%)",UIS.CR.1,..,..,..,..,..,99.67774,..,..,99.34,..,99.73084,99.68895,99.7026,..,..,..
+United States,USA,"Completion rate, primary education, female (%)",UIS.CR.1.F,..,..,..,..,..,99.70824,..,..,99.44,..,99.76456,99.73226,99.7588,..,..,..
+United States,USA,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,..,..,..,..,..,1.04238,..,..,1.03086,..,1.02577,1.02354,1.01956,..,..,..
+Mexico,MEX,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,91.63027,91.73452,92.79517,92.9256,93.44188,93.06894,93.51998,94.2284,93.96285,94.55588,94.47228,94.85962,94.97278,95.37991,..,..
+Mexico,MEX,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,90.21041,89.83451,91.35555,91.45361,92.11625,91.85342,92.33828,93.17924,92.90394,93.59134,93.4855,93.96852,94.16576,94.60805,..,..
+Mexico,MEX,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,93.19041,93.9012,94.44151,94.59216,94.91657,94.38394,94.78277,95.39163,95.11211,95.62047,95.54933,95.84482,95.87237,96.2329,..,..
+Mexico,MEX,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,99.83777,99.91355,99.98538,99.93155,99.98283,99.86079,99.73703,99.6698,99.5963,99.50078,99.4255,99.34545,99.27124,99.30054,..,..
+Mexico,MEX,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,92.97358,94.34215,94.77281,94.60809,94.15396,92.84796,92.79895,93.09526,95.67442,96.75575,97.57074,96.61099,94.05976,92.21024,..,..
+Mexico,MEX,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,55.94098,55.85656,57.09268,57.48789,57.29424,58.41348,58.19121,60.53173,65.41491,67.70419,70.32066,72.53628,73.83875,73.85124,..,..
+Mexico,MEX,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,3.09699,3.23791,3.12973,3.46887,4.08284,3.91783,3.90254,3.60642,4.39039,4.2952,3.05917,3.30642,2.41587,..,..,..
+Mexico,MEX,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,2.3326,2.41605,1.9474,1.88755,2.63863,2.05857,2.59644,2.49102,3.054,1.97994,1.56646,2.18194,1.87069,..,..,..
+Mexico,MEX,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,2.6554,2.8427,3.16474,4.12946,3.58078,2.93854,3.2459,2.58483,3.4026,2.54324,2.3082,2.92252,2.28254,..,..,..
+Mexico,MEX,"Completion rate, primary education, both sexes (%)",UIS.CR.1,..,94.39,..,95.01,..,95.8,..,96.45,..,96.44,..,96.4027,..,97.88,..,..
+Mexico,MEX,"Completion rate, primary education, female (%)",UIS.CR.1.F,..,95.21,..,95.44,..,96.72,..,97.12,..,97.25,..,96.31248,..,98.27,..,..
+Mexico,MEX,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,..,1.01727,..,1.0666,..,1.0756,..,1.09566,..,1.01235,..,0.97913,..,1.07051,..,..
+Niger,NER,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,28.67242,..,..,..,..,..,..,30.56039,..,..,..,..,..,35.05,..,..
+Niger,NER,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,15.08414,..,..,..,..,..,..,22.55129,..,..,..,..,..,26.65,..,..
+Niger,NER,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,42.92737,..,..,..,..,..,..,39.05869,..,..,..,..,..,43.59406,..,..
+Niger,NER,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,41.3199,42.64247,43.81249,47.23268,51.04844,55.14722,59.88326,61.1721,60.83162,60.86362,62.49335,63.57047,66.48804,..,58.97464,..
+Niger,NER,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,17.65253,..,21.6396,20.52617,19.98015,21.04904,20.8366,..,..,29.01907,30.97026,34.10405,35.05713,..,..,..
+Niger,NER,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,6.28767,..,6.30097,6.92169,6.07082,6.84428,7.51896,..,..,10.45502,11.88316,..,13.85195,..,..,..
+Niger,NER,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,..,26.64151,18.09062,8.67591,21.06071,7.87215,9.45196,13.5908,18.76213,25.89814,11.90027,5.18427,2.36978,..,..,..
+Niger,NER,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,..,34.0727,21.63605,11.09738,22.06043,9.07261,8.66716,13.39138,20.29341,22.41295,5.57986,3.86063,0.93993,..,..,..
+Niger,NER,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,..,5.94842,5.72351,1.77951,23.18355,3.90515,8.50597,12.49607,20.62282,37.66538,27.65825,10.05721,2.47136,..,..,..
+Niger,NER,"Completion rate, primary education, both sexes (%)",UIS.CR.1,..,16.84693,..,..,..,..,..,28.34748,..,..,..,..,..,..,..,..
+Niger,NER,"Completion rate, primary education, female (%)",UIS.CR.1.F,..,13.23251,..,..,..,..,..,22.68427,..,..,..,..,..,..,..,..
+Niger,NER,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,..,0.26113,..,..,..,..,..,0.30172,..,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,..,..,61.20555,..,..,..,..,75.01719,..,..,..,77.04268,..,..,..,..
+"Congo, Dem. Rep.",COD,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,..,..,46.10425,..,..,..,..,62.91864,..,..,..,66.49998,..,..,..,..
+"Congo, Dem. Rep.",COD,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,..,..,76.91569,..,..,..,..,87.90839,..,..,..,88.52469,..,..,..,..
+"Congo, Dem. Rep.",COD,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,..,..,..,..,..,9.61664,..,..,16.87079,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,..,..,..,..,..,0.00562,..,..,26.99525,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,..,..,..,..,..,24.85206,..,..,1.08012,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,"Completion rate, primary education, both sexes (%)",UIS.CR.1,..,..,48.03712,..,..,44.46562,..,..,68.9453,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,"Completion rate, primary education, female (%)",UIS.CR.1.F,..,..,45.55529,..,..,42.67512,..,..,66.51914,..,..,..,..,..,..,..
+"Congo, Dem. Rep.",COD,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,..,..,0.65444,..,..,0.62935,..,..,0.6995,..,..,..,..,..,..,..
+Thailand,THA,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,93.50647,..,..,..,..,96.43091,..,..,93.70207,..,92.86831,..,..,93.76776,..,..
+Thailand,THA,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,91.52957,..,..,..,..,96.42705,..,..,92.24916,..,91.19193,..,..,92.42856,..,..
+Thailand,THA,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,95.60024,..,..,..,..,96.43502,..,..,95.25126,..,94.65912,..,..,95.20239,..,..
+Thailand,THA,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,..,98.91908,98.49881,97.95392,98.08255,..,..,..,..,..,..,..,..,..,..,..
+Thailand,THA,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,..,95.70361,96.07844,95.49659,96.44258,..,..,..,..,..,..,..,..,..,..,..
+Thailand,THA,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,..,46.21843,55.86948,53.98777,60.2012,61.73728,..,77.97347,..,80.75744,79.08281,..,..,..,..,..
+Thailand,THA,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,..,..,..,..,..,3.27769,5.99984,4.91229,4.96469,5.67421,..,..,..,..,..,..
+Thailand,THA,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,..,..,..,2.68402,..,2.79771,3.72394,6.68635,2.90387,0.11666,..,..,..,..,..,..
+Thailand,THA,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,..,..,..,..,..,0.71386,8.81703,5.23064,4.2174,2.30465,..,..,..,..,..,..
+Thailand,THA,"Completion rate, primary education, both sexes (%)",UIS.CR.1,97.67,..,..,..,..,..,..,..,98.1352,..,..,98.1323,..,..,..,..
+Thailand,THA,"Completion rate, primary education, female (%)",UIS.CR.1.F,98.04,..,..,..,..,..,..,..,98.77737,..,..,97.86474,..,..,..,..
+Thailand,THA,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,1.12092,..,..,..,..,..,..,..,1.1457,..,..,1.19095,..,..,..,..
+Brazil,BRA,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,..,89.61523,90.00937,90.03662,90.29821,90.37918,91.41124,91.33785,91.48424,91.72943,92.0479,92.80844,93.07582,93.2275,..,..
+Brazil,BRA,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,..,89.85559,90.22801,90.21955,90.41122,90.6817,91.63315,91.6249,91.76496,92.06052,92.34379,93.0212,93.24371,93.42507,..,..
+Brazil,BRA,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,..,89.35324,89.77214,89.83787,90.17484,90.05618,91.16898,91.02567,91.17796,91.36677,91.72516,92.57516,92.89153,93.00904,..,..
+Brazil,BRA,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,96.07993,..,97.47411,98.53831,96.58508,..,95.69718,..,..,..,..,..,..,..,..,..
+Brazil,BRA,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,..,..,94.88663,..,98.96988,..,96.63569,..,..,..,..,..,..,..,..,..
+Brazil,BRA,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,82.72149,..,81.08097,83.32669,83.85313,..,84.89056,..,..,..,..,..,..,..,..,..
+Brazil,BRA,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,6.13261,5.93184,6.71119,7.74869,6.82133,7.24852,6.11585,7.98539,6.23771,6.5657,3.94874,3.36801,2.47763,..,..,..
+Brazil,BRA,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,6.82573,6.73447,7.01547,6.77877,5.39563,5.84243,5.6826,8.64864,5.28061,6.00119,3.90472,3.03821,2.2319,..,..,..
+Brazil,BRA,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,5.37639,4.83955,6.71505,7.11009,5.41343,6.06338,5.82876,7.49135,5.65018,6.15804,3.22146,2.40177,2.27087,..,..,..
+Brazil,BRA,"Completion rate, primary education, both sexes (%)",UIS.CR.1,93.44,94.1,93.74,94.11,94.44,..,94.9,95.91,96.02,96.72,97,93.84,94.74,95.16,..,..
+Brazil,BRA,"Completion rate, primary education, female (%)",UIS.CR.1.F,95.22,95.75,95.44,96.03,96.35,..,96.29,97.11,97.44,97.82,97.97,95.55,96.19,96.44,..,..
+Brazil,BRA,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,1.16979,1.15095,1.1579,1.1562,1.13181,..,1.15523,1.15676,1.15461,1.15288,1.15592,1.16352,1.15599,1.14506,..,..
+South Africa,ZAF,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,..,..,88.71725,..,92.89486,92.87732,93.10214,93.72947,..,94.1399,94.36792,..,87.04667,..,..,..
+South Africa,ZAF,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,..,..,87.0431,..,91.76816,91.71399,92.04789,92.58625,..,93.07306,93.40803,..,86.45863,..,..,..
+South Africa,ZAF,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,..,..,90.71759,..,94.12146,94.14385,94.24509,94.96372,..,95.28685,95.39653,..,87.67775,..,..,..
+South Africa,ZAF,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,94.48742,..,..,..,..,..,..,..,..,..,95.64551,..,92.44938,88.99204,..,..
+South Africa,ZAF,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,91.2985,..,..,..,..,..,..,..,..,..,..,..,80.8609,85.63637,..,..
+South Africa,ZAF,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,73.22705,..,..,..,..,..,..,..,..,..,87.52533,..,83.20798,79.35152,..,..
+South Africa,ZAF,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,2.87672,3.49996,3.47444,3.11099,3.78166,..,..,..,..,3.33279,..,..,4.95871,4.94745,4.18566,..
+South Africa,ZAF,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,4.40791,4.19097,4.33729,3.99963,5.26647,5.57788,4.96894,7.13676,5.94134,3.98056,4.26288,..,5.28592,5.03557,3.91176,..
+South Africa,ZAF,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,2.96394,3.64331,4.89175,2.91255,2.36249,0,2.37341,1.72216,1.41844,3.39775,3.61432,..,4.94646,4.20572,3.26188,..
+South Africa,ZAF,"Completion rate, primary education, both sexes (%)",UIS.CR.1,..,..,..,..,..,..,93.05289,..,..,..,..,96.13182,..,..,..,..
+South Africa,ZAF,"Completion rate, primary education, female (%)",UIS.CR.1.F,..,..,..,..,..,..,94.79371,..,..,..,..,97.78674,..,..,..,..
+South Africa,ZAF,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,..,..,..,..,..,..,1.12189,..,..,..,..,1.13129,..,..,..,..
+Syrian Arab Republic,SYR,"Adult literacy rate, population 15+ years, both sexes (%)",SE.ADT.LITR.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Adult literacy rate, population 15+ years, female (%)",SE.ADT.LITR.FE.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Adult literacy rate, population 15+ years, male (%)",SE.ADT.LITR.MA.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Total net enrolment rate, primary, both sexes (%)",UIS.NERT.1,99.19218,99.19777,99.23976,99.2624,99.16314,98.94972,99.08735,98.92896,72.39475,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Total net enrolment rate, lower secondary, both sexes (%)",UIS.NERT.2,88.38491,85.70241,88.09036,88.14249,87.97295,88.01864,89.77424,94.26508,61.88994,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Total net enrolment rate, upper secondary, both sexes (%)",UIS.NERT.3,36.80169,35.80143,36.91427,37.85974,39.29065,41.2217,43.52983,46.38936,33.58156,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Capital expenditure as % of total expenditure in public institutions (%),UIS.XSPENDP.FDPUB.FNCAP,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Capital expenditure as % of total expenditure in primary public institutions (%),UIS.XSPENDP.1.FDPUB.FNCAP,..,..,..,..,..,..,..,..,..,..,8.36498,..,..,..,..,..
+Syrian Arab Republic,SYR,Capital expenditure as % of total expenditure in secondary public institutions (%),UIS.XSPENDP.23.FDPUB.FNCAP,..,..,..,..,..,..,..,..,..,..,9.58521,..,..,..,..,..
+Syrian Arab Republic,SYR,"Completion rate, primary education, both sexes (%)",UIS.CR.1,..,95.58475,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Completion rate, primary education, female (%)",UIS.CR.1.F,..,94.73919,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",UIS.CR.3.GPIA,..,1.13785,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Data from database: Education Statistics - All Indicators,,,,,,,,,,,,,,,,,,,
+Last Updated: 12/20/2020,,,,,,,,,,,,,,,,,,,
