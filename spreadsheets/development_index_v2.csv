@@ -1,0 +1,657 @@
+﻿countryName,countryCode,Year,DevelopmentIndex
+Afghanistan,AFG,2005,0.16
+Albania,ALB,2005,0.46
+Algeria,DZA,2005,0.39
+Angola,AGO,2005,0.22
+Argentina,ARG,2005,0.61
+Armenia,ARM,2005,0.54
+Australia,AUS,2005,0.84
+Austria,AUT,2005,0.71
+Azerbaijan,AZE,2005,0.47
+Bahamas,BHS,2005,0.52
+Bahrain,BHR,2005,0.51
+Bangladesh,BGD,2005,0.24
+Barbados,BRB,2005,0.62
+Belarus,BLR,2005,0.63
+Belgium,BEL,2005,0.79
+Belize,BLZ,2005,0.51
+Benin,BEN,2005,0.24
+Bolivia,BOL,2005,0.41
+Botswana,BWA,2005,0.31
+Brazil,BRA,2005,0.49
+Canada,CAN,2005,0.82
+Congo,COG,2005,0.29
+Democratic Republic of Congo,COD,2005,0.15
+Brunei,BRN,2005,0.52
+Bulgaria,BGR,2005,0.53
+Burkina Faso,BFA,2005,0.16
+Burundi,BDI,2005,0.16
+Cambodia,KHM,2005,0.29
+Cameroon,CMR,2005,0.24
+Mexico,MEX,2005,0.5
+Niger,NER,2005,0.12
+South Africa,ZAF,2005,0.33
+Thailand,THA,2005,0.45
+Cape Verde,CPV,2005,0.39
+Central African Republic,CAF,2005,0.16
+Chad,TCD,2005,0.15
+Chile,CHL,2005,0.61
+China,CHN,2005,0.42
+Colombia,COL,2005,0.48
+Comoros,COM,2005,0.25
+United States,USA,2005,0.74
+Costa Rica,CRI,2005,0.57
+Cote d'Ivoire,CIV,2005,0.22
+Croatia,HRV,2005,0.56
+Cuba,CUB,2005,0.56
+Cyprus,CYP,2005,0.62
+Czechia,CZE,2005,0.6
+Denmark,DNK,2005,0.78
+Djibouti,DJI,2005,0.2
+Dominican Republic,DOM,2005,0.43
+Ecuador,ECU,2005,0.48
+Egypt,EGY,2005,0.38
+El Salvador,SLV,2005,0.41
+Equatorial Guinea,GNQ,2005,0.33
+Eritrea,ERI,2005,0.2
+Estonia,EST,2005,0.63
+Eswatini,SWZ,2005,0.26
+Ethiopia,ETH,2005,0.18
+Finland,FIN,2005,0.8
+France,FRA,2005,0.74
+Gabon,GAB,2005,0.36
+Gambia,GMB,2005,0.2
+Georgia,GEO,2005,0.5
+Germany,DEU,2005,0.7
+Ghana,GHA,2005,0.27
+Greece,GRC,2005,0.66
+Guatemala,GTM,2005,0.36
+Guinea,GIN,2005,0.17
+Guinea-Bissau,GNB,2005,0.18
+Guyana,GUY,2005,0.44
+Haiti,HTI,2005,0.23
+Honduras,HND,2005,0.39
+Hong Kong,HKG,2005,0.66
+Hungary,HUN,2005,0.58
+Iceland,ISL,2005,0.79
+India,IND,2005,0.29
+Indonesia,IDN,2005,0.41
+Iran,IRN,2005,0.42
+Iraq,IRQ,2005,0.28
+Ireland,IRL,2005,0.73
+Israel,ISR,2005,0.69
+Italy,ITA,2005,0.71
+Jamaica,JAM,2005,0.44
+Japan,JPN,2005,0.76
+Jordan,JOR,2005,0.48
+Kazakhstan,KAZ,2005,0.53
+Kenya,KEN,2005,0.26
+Kuwait,KWT,2005,0.57
+Kyrgyzstan,KGZ,2005,0.45
+Laos,LAO,2005,0.3
+Latvia,LVA,2005,0.6
+Lebanon,LBN,2005,0.45
+Lesotho,LSO,2005,0.25
+Liberia,LBR,2005,0.21
+Libya,LBY,2005,0.48
+Lithuania,LTU,2005,0.61
+Madagascar,MDG,2005,0.25
+Malawi,MWI,2005,0.22
+Malaysia,MYS,2005,0.48
+Mali,MLI,2005,0.17
+Malta,MLT,2005,0.59
+Mauritania,MRT,2005,0.21
+Mauritius,MUS,2005,0.47
+Moldova,MDA,2005,0.46
+Mongolia,MNG,2005,0.41
+Morocco,MAR,2005,0.33
+Mozambique,MOZ,2005,0.21
+Myanmar,MMR,2005,0.31
+Namibia,NAM,2005,0.35
+Nepal,NPL,2005,0.27
+Netherlands,NLD,2005,0.79
+New Zealand,NZL,2005,0.8
+Nicaragua,NIC,2005,0.38
+Nigeria,NGA,2005,0.22
+North Macedonia,MKD,2005,0.48
+Norway,NOR,2005,0.82
+Oman,OMN,2005,0.44
+Pakistan,PAK,2005,0.26
+Panama,PAN,2005,0.51
+Paraguay,PRY,2005,0.45
+Peru,PER,2005,0.47
+Philippines,PHL,2005,0.46
+Poland,POL,2005,0.6
+Portugal,PRT,2005,0.63
+Puerto Rico,PRI,2005,0.63
+Qatar,QAT,2005,0.5
+Romania,ROU,2005,0.49
+Russia,RUS,2005,0.51
+Rwanda,RWA,2005,0.22
+Saint Kitts and Nevis,KNA,2005,0.52
+Saint Vincent and the Grenadines,VCT,2005,0.52
+Saudi Arabia,SAU,2005,0.46
+Senegal,SEN,2005,0.21
+Serbia,SRB,2005,0.48
+Seychelles,SYC,2005,0.46
+Sierra Leone,SLE,2005,0.17
+Singapore,SGP,2005,0.65
+Slovakia,SVK,2005,0.57
+Slovenia,SVN,2005,0.69
+South Korea,KOR,2005,0.72
+Spain,ESP,2005,0.71
+Sri Lanka,LKA,2005,0.46
+Sudan,SDN,2005,0.23
+Sweden,SWE,2005,0.83
+Switzerland,CHE,2005,0.73
+Syria,SYR,2005,0.44
+Taiwan,TWN,2005,0.72
+Tajikistan,TJK,2005,0.39
+Tanzania,TZA,2005,0.23
+Togo,TGO,2005,0.25
+Trinidad and Tobago,TTO,2005,0.51
+Tunisia,TUN,2005,0.44
+Turkey,TUR,2005,0.46
+Uganda,UGA,2005,0.25
+Ukraine,UKR,2005,0.52
+United Arab Emirates,ARE,2005,0.51
+United Kingdom,GBR,2005,0.72
+Uruguay,URY,2005,0.6
+Uzbekistan,UZB,2005,0.47
+Venezuela,VEN,2005,0.5
+Vietnam,VNM,2005,0.43
+Yemen,YEM,2005,0.28
+Zambia,ZMB,2005,0.22
+Zimbabwe,ZWE,2005,0.22
+Afghanistan,AFG,2007,0.16
+Albania,ALB,2007,0.51
+Algeria,DZA,2007,0.4
+Angola,AGO,2007,0.24
+Argentina,ARG,2007,0.63
+Armenia,ARM,2007,0.56
+Australia,AUS,2007,0.85
+Austria,AUT,2007,0.72
+Azerbaijan,AZE,2007,0.5
+Bahamas,BHS,2007,0.53
+Bahrain,BHR,2007,0.53
+Bangladesh,BGD,2007,0.27
+Barbados,BRB,2007,0.67
+Belarus,BLR,2007,0.58
+Belgium,BEL,2007,0.74
+Belize,BLZ,2007,0.46
+Benin,BEN,2007,0.22
+Bolivia,BOL,2007,0.41
+Botswana,BWA,2007,0.33
+Brunei,BRN,2007,0.54
+Bulgaria,BGR,2007,0.54
+Burkina Faso,BFA,2007,0.17
+Burundi,BDI,2007,0.21
+Cambodia,KHM,2007,0.31
+Cameroon,CMR,2007,0.23
+Cape Verde,CPV,2007,0.42
+Central African Republic,CAF,2007,0.16
+Chad,TCD,2007,0.16
+Chile,CHL,2007,0.66
+China,CHN,2007,0.46
+Colombia,COL,2007,0.5
+Comoros,COM,2007,0.26
+Brazil,BRA,2007,0.49
+Canada,CAN,2007,0.83
+Congo,COG,2007,0.28
+Costa Rica,CRI,2007,0.58
+Cote d'Ivoire,CIV,2007,0.21
+Croatia,HRV,2007,0.59
+Cuba,CUB,2007,0.69
+Cyprus,CYP,2007,0.64
+Czechia,CZE,2007,0.62
+Democratic Republic of Congo,COD,2007,0.17
+Mexico,MEX,2007,0.51
+Niger,NER,2007,0.14
+South Africa,ZAF,2007,0.34
+Denmark,DNK,2007,0.79
+Djibouti,DJI,2007,0.22
+Dominican Republic,DOM,2007,0.45
+Ecuador,ECU,2007,0.47
+Egypt,EGY,2007,0.38
+El Salvador,SLV,2007,0.43
+Equatorial Guinea,GNQ,2007,0.36
+Eritrea,ERI,2007,0.22
+Estonia,EST,2007,0.65
+Eswatini,SWZ,2007,0.28
+Ethiopia,ETH,2007,0.19
+Finland,FIN,2007,0.81
+France,FRA,2007,0.77
+Gabon,GAB,2007,0.38
+Gambia,GMB,2007,0.21
+Georgia,GEO,2007,0.52
+Germany,DEU,2007,0.71
+Ghana,GHA,2007,0.27
+Greece,GRC,2007,0.71
+Guatemala,GTM,2007,0.39
+Guinea,GIN,2007,0.19
+Guinea-Bissau,GNB,2007,0.2
+Guyana,GUY,2007,0.45
+Haiti,HTI,2007,0.23
+Honduras,HND,2007,0.41
+Hong Kong,HKG,2007,0.67
+Hungary,HUN,2007,0.6
+Iceland,ISL,2007,0.81
+India,IND,2007,0.31
+Indonesia,IDN,2007,0.43
+Iran,IRN,2007,0.42
+Iraq,IRQ,2007,0.33
+Ireland,IRL,2007,0.8
+Israel,ISR,2007,0.74
+Italy,ITA,2007,0.75
+Jamaica,JAM,2007,0.45
+Japan,JPN,2007,0.78
+Jordan,JOR,2007,0.48
+Kazakhstan,KAZ,2007,0.53
+Kenya,KEN,2007,0.26
+Kuwait,KWT,2007,0.55
+Kyrgyzstan,KGZ,2007,0.46
+Laos,LAO,2007,0.31
+Latvia,LVA,2007,0.63
+Lebanon,LBN,2007,0.44
+Lesotho,LSO,2007,0.26
+Liberia,LBR,2007,0.22
+Libya,LBY,2007,0.51
+Lithuania,LTU,2007,0.63
+Madagascar,MDG,2007,0.25
+Malawi,MWI,2007,0.23
+Malaysia,MYS,2007,0.5
+Mali,MLI,2007,0.17
+Malta,MLT,2007,0.6
+Mauritania,MRT,2007,0.22
+Mauritius,MUS,2007,0.49
+Thailand,THA,2007,0.46
+United States,USA,2007,0.75
+Moldova,MDA,2007,0.46
+Mongolia,MNG,2007,0.42
+Morocco,MAR,2007,0.35
+Mozambique,MOZ,2007,0.23
+Myanmar,MMR,2007,0.34
+Namibia,NAM,2007,0.35
+Nepal,NPL,2007,0.3
+Netherlands,NLD,2007,0.81
+New Zealand,NZL,2007,0.81
+Nicaragua,NIC,2007,0.39
+Nigeria,NGA,2007,0.23
+North Macedonia,MKD,2007,0.49
+Norway,NOR,2007,0.84
+Oman,OMN,2007,0.47
+Pakistan,PAK,2007,0.28
+Panama,PAN,2007,0.52
+Paraguay,PRY,2007,0.45
+Peru,PER,2007,0.48
+Philippines,PHL,2007,0.46
+Poland,POL,2007,0.61
+Portugal,PRT,2007,0.64
+Puerto Rico,PRI,2007,0.63
+Qatar,QAT,2007,0.5
+Romania,ROU,2007,0.51
+Russia,RUS,2007,0.51
+Rwanda,RWA,2007,0.24
+Saint Kitts and Nevis,KNA,2007,0.52
+Saint Vincent and the Grenadines,VCT,2007,0.51
+Saudi Arabia,SAU,2007,0.48
+Senegal,SEN,2007,0.21
+Serbia,SRB,2007,0.5
+Seychelles,SYC,2007,0.48
+Sierra Leone,SLE,2007,0.18
+Singapore,SGP,2007,0.67
+Slovakia,SVK,2007,0.59
+Slovenia,SVN,2007,0.71
+South Korea,KOR,2007,0.77
+Spain,ESP,2007,0.76
+Sri Lanka,LKA,2007,0.46
+Sudan,SDN,2007,0.26
+Sweden,SWE,2007,0.77
+Switzerland,CHE,2007,0.75
+Syria,SYR,2007,0.46
+Taiwan,TWN,2007,0.75
+Tajikistan,TJK,2007,0.4
+Tanzania,TZA,2007,0.24
+Togo,TGO,2007,0.25
+Trinidad and Tobago,TTO,2007,0.51
+Tunisia,TUN,2007,0.45
+Turkey,TUR,2007,0.48
+Uganda,UGA,2007,0.25
+Ukraine,UKR,2007,0.54
+United Arab Emirates,ARE,2007,0.53
+United Kingdom,GBR,2007,0.71
+Uruguay,URY,2007,0.62
+Uzbekistan,UZB,2007,0.47
+Venezuela,VEN,2007,0.55
+Vietnam,VNM,2007,0.43
+Yemen,YEM,2007,0.3
+Zambia,ZMB,2007,0.21
+Zimbabwe,ZWE,2007,0.23
+Afghanistan,AFG,2010,0.18
+Albania,ALB,2010,0.53
+Algeria,DZA,2010,0.41
+Angola,AGO,2010,0.24
+Argentina,ARG,2010,0.65
+Armenia,ARM,2010,0.57
+Australia,AUS,2010,0.87
+Austria,AUT,2010,0.74
+Azerbaijan,AZE,2010,0.52
+Bahamas,BHS,2010,0.57
+Bahrain,BHR,2010,0.55
+Bangladesh,BGD,2010,0.29
+Barbados,BRB,2010,0.7
+Belarus,BLR,2010,0.6
+Belgium,BEL,2010,0.79
+Belize,BLZ,2010,0.49
+Benin,BEN,2010,0.25
+Bolivia,BOL,2010,0.43
+Botswana,BWA,2010,0.35
+Brunei,BRN,2010,0.55
+Bulgaria,BGR,2010,0.55
+Burkina Faso,BFA,2010,0.19
+Burundi,BDI,2010,0.22
+Cambodia,KHM,2010,0.32
+Cameroon,CMR,2010,0.24
+Cape Verde,CPV,2010,0.43
+Central African Republic,CAF,2010,0.16
+Chad,TCD,2010,0.18
+Chile,CHL,2010,0.65
+China,CHN,2010,0.48
+Colombia,COL,2010,0.53
+Comoros,COM,2010,0.28
+Costa Rica,CRI,2010,0.62
+Cote d'Ivoire,CIV,2010,0.24
+Croatia,HRV,2010,0.6
+Cuba,CUB,2010,0.73
+Cyprus,CYP,2010,0.66
+Czechia,CZE,2010,0.64
+Denmark,DNK,2010,0.8
+Djibouti,DJI,2010,0.23
+Dominican Republic,DOM,2010,0.47
+Ecuador,ECU,2010,0.51
+Egypt,EGY,2010,0.39
+El Salvador,SLV,2010,0.43
+Equatorial Guinea,GNQ,2010,0.37
+Eritrea,ERI,2010,0.23
+Estonia,EST,2010,0.65
+Eswatini,SWZ,2010,0.28
+Ethiopia,ETH,2010,0.22
+Finland,FIN,2010,0.82
+France,FRA,2010,0.79
+Gabon,GAB,2010,0.38
+Gambia,GMB,2010,0.24
+Georgia,GEO,2010,0.52
+Germany,DEU,2010,0.74
+Ghana,GHA,2010,0.29
+Greece,GRC,2010,0.76
+Guatemala,GTM,2010,0.4
+Guinea,GIN,2010,0.18
+Guinea-Bissau,GNB,2010,0.21
+Guyana,GUY,2010,0.39
+Haiti,HTI,2010,0.23
+Honduras,HND,2010,0.42
+Hong Kong,HKG,2010,0.74
+Hungary,HUN,2010,0.6
+Iceland,ISL,2010,0.83
+India,IND,2010,0.33
+Indonesia,IDN,2010,0.45
+Iran,IRN,2010,0.44
+Iraq,IRQ,2010,0.35
+Ireland,IRL,2010,0.83
+Israel,ISR,2010,0.75
+Italy,ITA,2010,0.76
+Jamaica,JAM,2010,0.45
+Japan,JPN,2010,0.8
+Jordan,JOR,2010,0.49
+Kazakhstan,KAZ,2010,0.53
+Kenya,KEN,2010,0.28
+Kuwait,KWT,2010,0.57
+Kyrgyzstan,KGZ,2010,0.47
+Laos,LAO,2010,0.34
+Latvia,LVA,2010,0.63
+Lebanon,LBN,2010,0.47
+Lesotho,LSO,2010,0.25
+Liberia,LBR,2010,0.23
+Libya,LBY,2010,0.53
+Lithuania,LTU,2010,0.64
+Madagascar,MDG,2010,0.26
+Malawi,MWI,2010,0.23
+Malaysia,MYS,2010,0.51
+Mali,MLI,2010,0.18
+Malta,MLT,2010,0.62
+Mauritania,MRT,2010,0.23
+Mauritius,MUS,2010,0.5
+Brazil,BRA,2010,0.51
+Canada,CAN,2010,0.85
+Moldova,MDA,2010,0.47
+Mongolia,MNG,2010,0.45
+Morocco,MAR,2010,0.37
+Mozambique,MOZ,2010,0.23
+Myanmar,MMR,2010,0.36
+Namibia,NAM,2010,0.38
+Nepal,NPL,2010,0.31
+Netherlands,NLD,2010,0.83
+New Zealand,NZL,2010,0.82
+Nicaragua,NIC,2010,0.39
+Congo,COG,2010,0.29
+Democratic Republic of Congo,COD,2010,0.18
+Mexico,MEX,2010,0.52
+Niger,NER,2010,0.13
+Nigeria,NGA,2010,0.23
+North Macedonia,MKD,2010,0.5
+Norway,NOR,2010,0.83
+Oman,OMN,2010,0.49
+Pakistan,PAK,2010,0.29
+Panama,PAN,2010,0.54
+Paraguay,PRY,2010,0.46
+Peru,PER,2010,0.49
+Philippines,PHL,2010,0.47
+Poland,POL,2010,0.63
+Portugal,PRT,2010,0.66
+Puerto Rico,PRI,2010,0.64
+Qatar,QAT,2010,0.52
+Romania,ROU,2010,0.54
+Russia,RUS,2010,0.52
+Rwanda,RWA,2010,0.25
+Saint Kitts and Nevis,KNA,2010,0.55
+Saint Vincent and the Grenadines,VCT,2010,0.52
+Saudi Arabia,SAU,2010,0.52
+Senegal,SEN,2010,0.23
+Serbia,SRB,2010,0.52
+Seychelles,SYC,2010,0.49
+Sierra Leone,SLE,2010,0.19
+Singapore,SGP,2010,0.69
+Slovakia,SVK,2010,0.6
+Slovenia,SVN,2010,0.72
+South Africa,ZAF,2010,0.35
+Thailand,THA,2010,0.49
+United States,USA,2010,0.77
+South Korea,KOR,2010,0.81
+Spain,ESP,2010,0.81
+Sri Lanka,LKA,2010,0.49
+Sudan,SDN,2010,0.27
+Sweden,SWE,2010,0.78
+Switzerland,CHE,2010,0.76
+Syria,SYR,2010,0.48
+Taiwan,TWN,2010,0.8
+Tajikistan,TJK,2010,0.42
+Tanzania,TZA,2010,0.24
+Togo,TGO,2010,0.26
+Trinidad and Tobago,TTO,2010,0.53
+Tunisia,TUN,2010,0.46
+Turkey,TUR,2010,0.5
+Uganda,UGA,2010,0.27
+Ukraine,UKR,2010,0.54
+United Arab Emirates,ARE,2010,0.57
+United Kingdom,GBR,2010,0.72
+Uruguay,URY,2010,0.63
+Uzbekistan,UZB,2010,0.48
+Venezuela,VEN,2010,0.56
+Vietnam,VNM,2010,0.45
+Yemen,YEM,2010,0.32
+Zambia,ZMB,2010,0.24
+Zimbabwe,ZWE,2010,0.23
+Afghanistan,AFG,2015,0.25
+Albania,ALB,2015,0.59
+Algeria,DZA,2015,0.45
+Angola,AGO,2015,0.27
+Argentina,ARG,2015,0.7
+Armenia,ARM,2015,0.58
+Australia,AUS,2015,0.89
+Austria,AUT,2015,0.79
+Azerbaijan,AZE,2015,0.52
+Bahamas,BHS,2015,0.58
+Bahrain,BHR,2015,0.57
+Bangladesh,BGD,2015,0.33
+Barbados,BRB,2015,0.66
+Belarus,BLR,2015,0.67
+Belgium,BEL,2015,0.84
+Belize,BLZ,2015,0.43
+Benin,BEN,2015,0.26
+Bolivia,BOL,2015,0.47
+Botswana,BWA,2015,0.4
+Brunei,BRN,2015,0.58
+Bulgaria,BGR,2015,0.59
+Burkina Faso,BFA,2015,0.22
+Burundi,BDI,2015,0.25
+Cambodia,KHM,2015,0.37
+Cameroon,CMR,2015,0.28
+Cape Verde,CPV,2015,0.46
+Central African Republic,CAF,2015,0.16
+Chad,TCD,2015,0.19
+Chile,CHL,2015,0.74
+China,CHN,2015,0.54
+Colombia,COL,2015,0.55
+Comoros,COM,2015,0.28
+Costa Rica,CRI,2015,0.67
+Cote d'Ivoire,CIV,2015,0.22
+Croatia,HRV,2015,0.63
+Cuba,CUB,2015,0.64
+Cyprus,CYP,2015,0.66
+Czechia,CZE,2015,0.68
+Denmark,DNK,2015,0.83
+Djibouti,DJI,2015,0.26
+Dominican Republic,DOM,2015,0.49
+Ecuador,ECU,2015,0.55
+Egypt,EGY,2015,0.41
+El Salvador,SLV,2015,0.45
+Equatorial Guinea,GNQ,2015,0.4
+Eritrea,ERI,2015,0.26
+Estonia,EST,2015,0.73
+Eswatini,SWZ,2015,0.3
+Ethiopia,ETH,2015,0.26
+Finland,FIN,2015,0.84
+France,FRA,2015,0.82
+Gabon,GAB,2015,0.4
+Gambia,GMB,2015,0.25
+Georgia,GEO,2015,0.58
+Germany,DEU,2015,0.8
+Ghana,GHA,2015,0.33
+Greece,GRC,2015,0.75
+Guatemala,GTM,2015,0.41
+Guinea,GIN,2015,0.19
+Guinea-Bissau,GNB,2015,0.23
+Guyana,GUY,2015,0.39
+Haiti,HTI,2015,0.25
+Honduras,HND,2015,0.43
+Hong Kong,HKG,2015,0.8
+Hungary,HUN,2015,0.62
+Iceland,ISL,2015,0.9
+India,IND,2015,0.38
+Indonesia,IDN,2015,0.47
+Iran,IRN,2015,0.51
+Iraq,IRQ,2015,0.35
+Ireland,IRL,2015,0.85
+Israel,ISR,2015,0.81
+Italy,ITA,2015,0.81
+Jamaica,JAM,2015,0.48
+Japan,JPN,2015,0.83
+Jordan,JOR,2015,0.52
+Kazakhstan,KAZ,2015,0.58
+Kenya,KEN,2015,0.31
+Kuwait,KWT,2015,0.54
+Kyrgyzstan,KGZ,2015,0.49
+Laos,LAO,2015,0.36
+Latvia,LVA,2015,0.63
+Lebanon,LBN,2015,0.51
+Lesotho,LSO,2015,0.28
+Liberia,LBR,2015,0.24
+Libya,LBY,2015,0.45
+Lithuania,LTU,2015,0.65
+Madagascar,MDG,2015,0.27
+Malawi,MWI,2015,0.28
+Malaysia,MYS,2015,0.52
+Mali,MLI,2015,0.21
+Malta,MLT,2015,0.63
+Mauritania,MRT,2015,0.25
+Mauritius,MUS,2015,0.54
+Moldova,MDA,2015,0.5
+Mongolia,MNG,2015,0.5
+Morocco,MAR,2015,0.42
+Mozambique,MOZ,2015,0.28
+Myanmar,MMR,2015,0.39
+Namibia,NAM,2015,0.41
+Nepal,NPL,2015,0.34
+Netherlands,NLD,2015,0.86
+New Zealand,NZL,2015,0.86
+Nicaragua,NIC,2015,0.42
+Nigeria,NGA,2015,0.26
+North Macedonia,MKD,2015,0.51
+Norway,NOR,2015,0.84
+Oman,OMN,2015,0.53
+Pakistan,PAK,2015,0.29
+Panama,PAN,2015,0.57
+Paraguay,PRY,2015,0.48
+Peru,PER,2015,0.53
+Philippines,PHL,2015,0.46
+Poland,POL,2015,0.67
+Portugal,PRT,2015,0.75
+Puerto Rico,PRI,2015,0.62
+Qatar,QAT,2015,0.63
+Romania,ROU,2015,0.57
+Russia,RUS,2015,0.57
+Rwanda,RWA,2015,0.33
+Saint Kitts and Nevis,KNA,2015,0.59
+Saint Vincent and the Grenadines,VCT,2015,0.55
+Saudi Arabia,SAU,2015,0.5
+Senegal,SEN,2015,0.28
+Serbia,SRB,2015,0.54
+Seychelles,SYC,2015,0.51
+Sierra Leone,SLE,2015,0.2
+Singapore,SGP,2015,0.82
+Slovakia,SVK,2015,0.62
+Slovenia,SVN,2015,0.77
+Brazil,BRA,2015,0.54
+South Korea,KOR,2015,0.85
+Spain,ESP,2015,0.85
+Sri Lanka,LKA,2015,0.51
+Sudan,SDN,2015,0.26
+Sweden,SWE,2015,0.86
+Switzerland,CHE,2015,0.8
+Syria,SYR,2015,0.43
+Taiwan,TWN,2015,0.82
+Tajikistan,TJK,2015,0.44
+Tanzania,TZA,2015,0.29
+Canada,CAN,2015,0.88
+Congo,COG,2015,0.34
+Democratic Republic of Congo,COD,2015,0.22
+Mexico,MEX,2015,0.54
+Togo,TGO,2015,0.27
+Trinidad and Tobago,TTO,2015,0.54
+Tunisia,TUN,2015,0.48
+Turkey,TUR,2015,0.55
+Uganda,UGA,2015,0.28
+Ukraine,UKR,2015,0.56
+United Arab Emirates,ARE,2015,0.59
+United Kingdom,GBR,2015,0.76
+Niger,NER,2015,0.17
+South Africa,ZAF,2015,0.38
+Thailand,THA,2015,0.51
+United States,USA,2015,0.78
+Uruguay,URY,2015,0.66
+Uzbekistan,UZB,2015,0.51
+Venezuela,VEN,2015,0.56
+Vietnam,VNM,2015,0.48
+Yemen,YEM,2015,0.3
+Zambia,ZMB,2015,0.31
+Zimbabwe,ZWE,2015,0.29
