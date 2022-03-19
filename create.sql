@@ -136,10 +136,41 @@ FROM 'C:\Users\ofbac\OneDrive\Desktop\CSI4142_project_WHB-main\spreadsheets\raw_
 DELIMITER ','
 CSV HEADER;
 
+-----------Quality of Life Dimension ----------
+DROP TABLE IF EXISTS quality_dim 
+CREATE TABLE quality_dim 
+(
+series_name varchar,
+series_code varchar,
+country_name varchar, 
+country_code varchar,
+yr_2005 varchar,
+ yr_2006 varchar,
+ yr_2007 varchar,
+ yr_2008 varchar,
+ yr_2009 varchar,
+ yr_2010 varchar,
+ yr_2011 varchar,
+ yr_2012 varchar,
+ yr_2013 varchar,
+ yr_2014 varchar,
+ yr_2015 varchar,
+ yr_2016 varchar,
+ yr_2017 varchar,
+ yr_2018 varchar,
+ yr_2019 varchar,
+ yr_2020 varchar
+);
+
+COPY quality_dim 
+FROM 'C:\Users\ofbac\OneDrive\Desktop\CSI4142_project_WHB-main\spreadsheets\raw_data_qualityDimension.csv' --modify path 
+DELIMITER ','
+CSV HEADER;
+
 ------------------------- Create Fact Table
 DROP TABLE IF EXISTS fact;
 
-SELECT m.monthkey, c.countrycode
+SELECT m.monthkey, c.countrycode, 
 INTO fact
 from months m, Country c;
 
@@ -150,7 +181,7 @@ ALTER TABLE fact
 	
 ALTER TABLE fact
 	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey);
-
+	
 ------------------------- Load Development index data & create table
 drop table if exists index_dev;
 
