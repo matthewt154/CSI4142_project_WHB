@@ -74,6 +74,7 @@ FROM 'C:\Users\Dell\Desktop\CSI4142\CSI4142_project_WHB\spreadsheets\raw_data_ed
 DELIMITER ','
 CSV HEADER;
 
+ALTER TABLE education_dim ADD COLUMN educationkey serial PRIMARY KEY;
 -----------Population Dimension ----------
 DROP TABLE IF EXISTS population_dim 
 CREATE TABLE population_dim
@@ -104,7 +105,7 @@ COPY population_dim
 FROM 'C:\Users\Dell\Desktop\CSI4142\CSI4142_project_WHB\spreadsheets\raw_data_populationDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
-
+ALTER TABLE population_dim ADD COLUMN populationkey serial PRIMARY KEY;
 -----------Health Dimension ----------
 DROP TABLE IF EXISTS health_dim 
 CREATE TABLE health_dim
@@ -135,6 +136,8 @@ COPY health_dim
 FROM 'C:\Users\ofbac\OneDrive\Desktop\CSI4142_project_WHB-main\spreadsheets\raw_data_healthDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
+
+ALTER TABLE health_dim ADD COLUMN healthkey serial PRIMARY KEY;
 
 -----------Quality of Life Dimension ----------
 DROP TABLE IF EXISTS quality_dim 
@@ -167,6 +170,7 @@ FROM 'C:\Users\ofbac\OneDrive\Desktop\CSI4142_project_WHB-main\spreadsheets\raw_
 DELIMITER ','
 CSV HEADER;
 
+ALTER TABLE quality_dim ADD COLUMN qualitykey serial PRIMARY KEY;
 ------------------------- Create Fact Table
 DROP TABLE IF EXISTS fact;
 
@@ -181,7 +185,18 @@ ALTER TABLE fact
 	
 ALTER TABLE fact
 	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey);
-	
+
+ALTER TABLE fact
+    ADD CONSTRAINT fk_educationkey FOREIGN KEY (educationkey) REFERENCES education_dim(educationkey);
+
+ALTER TABLE fact
+    ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey);
+
+ALTER TABLE fact
+    ADD CONSTRAINT fk_healthkey FOREIGN KEY (healthkey) REFERENCES health_dim(healthkey);
+
+ALTER TABLE fact
+    ADD CONSTRAINT fk_qualitykey FOREIGN KEY (qualitykey) REFERENCES quality_dim(qualitykey);	
 ------------------------- Load Development index data & create table
 drop table if exists index_dev;
 
