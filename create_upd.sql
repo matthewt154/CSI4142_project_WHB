@@ -40,8 +40,8 @@ ALTER TABLE country ADD COLUMN countrykey serial PRIMARY KEY;
 
 -- Delete entries of countries we aren't including
 DELETE from country WHERE country.countryname NOT IN ('Canada', 'United States', 
-						  'Brazil', 'Mexico', 'Niger',
-						  'Syrian Arab Republic', 'South Africa', 'Thailand', 'Venezuela');
+						  'Brazil', 'Mexico', 'Congo',
+						  'Niger', 'South Africa', 'Thailand', 'Syrian Arab Republic');
 						  
 
 ------- Education Dimension -------
@@ -180,11 +180,13 @@ SELECT m.monthkey, c.countrycode, p.populationkey--, e.educationkey
 INTO fact
 from months m, Country c, population_dim p;--, education_dim e;
 
+--ALTER TABLE fact
+--	ADD UNIQUE (countrycode, populationkey);
+
 ALTER TABLE fact
 	ADD CONSTRAINT fk_countrycode FOREIGN KEY (countrycode) REFERENCES country(countrycode),
 	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey),
-	ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey),
-	ADD CONSTRAINT UNIQUE (countrycode, populationkey);
+	ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey);
 /*	
 ALTER TABLE fact
 	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey);
@@ -242,5 +244,46 @@ update fact as f
 
 DROP TABLE index_dev;
 
+---------------------------------------- Create temporary table to store Quality of Life data.
+drop table if exists qol_index;
+
+create table qol_index (
+	countryName text NOT NULL,
+	countrycode text NOT NULL, yr_2013_rank decimal,
+ 	yr_2014_h1_rank decimal,yr_2014_h2_rank decimal,yr_2015_h1_rank decimal,yr_2015_h2_rank decimal,yr_2016_h1_rank decimal,yr_2016_h2_rank decimal,yr_2017_h1_rank decimal,yr_2017_h2_rank decimal,yr_2018_h1_rank decimal,yr_2018_h2_rank decimal,yr_2019_h1_rank decimal,yr_2019_h2_rank decimal,yr_2020_h1_rank decimal,yr_2020_h2_rank decimal);
+
+COPY qol_index
+FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\qol_idx.csv' -- Edit local path
+DELIMITER ',' CSV HEADER;
+
+-- Create a numeric column to store the qol data. 
+alter table fact drop if exists qol;
+alter table fact add qol numeric;
+-- Update the fact table.
+update fact as f
+	set qol = (CASE
+		WHEN m.year = 2013 THEN q.yr_2013_rank
+		WHEN m.year = 2014 AND m.quarter <= 2 THEN q.yr_2014_h1_rank
+		WHEN m.year = 2014 AND m.quarter > 2  THEN q.yr_2014_h2_rank
+		WHEN m.year = 2015 AND m.quarter <= 2 THEN q.yr_2015_h1_rank
+		WHEN m.year = 2015 AND m.quarter > 2  THEN q.yr_2015_h2_rank
+		WHEN m.year = 2016 AND m.quarter <= 2 THEN q.yr_2016_h1_rank
+		WHEN m.year = 2016 AND m.quarter > 2  THEN q.yr_2016_h2_rank
+		WHEN m.year = 2017 AND m.quarter <= 2 THEN q.yr_2017_h1_rank
+		WHEN m.year = 2017 AND m.quarter > 2  THEN q.yr_2017_h2_rank
+		WHEN m.year = 2018 AND m.quarter <= 2 THEN q.yr_2018_h1_rank
+		WHEN m.year = 2018 AND m.quarter > 2  THEN q.yr_2018_h2_rank
+		WHEN m.year = 2019 AND m.quarter <= 2 THEN q.yr_2019_h1_rank
+		WHEN m.year = 2019 AND m.quarter > 2  THEN q.yr_2019_h2_rank
+		WHEN m.year = 2020 AND m.quarter <= 2 THEN q.yr_2020_h1_rank
+		WHEN m.year = 2020 AND m.quarter > 2  THEN q.yr_2020_h2_rank
+	END)
+	FROM months m, qol_index q
+	WHERE q.countrycode = f.countrycode AND m.monthkey = f.monthkey;
+
+DROP TABLE qol_index;
+
+
+-- Add PK to the Fact Table.
 ALTER TABLE fact ADD COLUMN factkey serial PRIMARY KEY;
 --ALTER TABLE fact ADD PRIMARY KEY (monthkey, countrycode, populationkey)
