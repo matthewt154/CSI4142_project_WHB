@@ -1,76 +1,76 @@
-﻿Series Name,Series Code,Country Name,Country Code,2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Canada,CAN,73.03554535,69.435112,69.58927917,69.75228882,70.17884064,69.90503693,70.21539307,70.44465637,70.7170639,70.56432343,70.62810516,69.65316772,69.79706573,70.16950989,70.16747284,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,United States,USA,45.39122772,46.26139069,46.34472275,47.49931717,48.51221466,48.86313248,48.94212341,48.84257889,49.46422958,50.69041824,51.15266418,50.80243301,50.6502037,50.77178955,50.84327316,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Brazil,BRA,41.6314621,42.92739487,42.48596573,43.74353027,44.16326523,45.02125549,44.49915695,43.36180878,44.51945877,44.05274582,43.25646591,43.06282806,41.73838043,41.09182358,40.74078369,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Mexico,MEX,42.23654556,42.82709122,43.81832123,45.91358185,46.66846848,50.21875,52.80387878,53.08211899,53.75115967,52.08169937,52.20096588,51.27971649,50.53536987,49.67456055,49.307724,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Niger,NER,33.8276062,35.4354248,27.86895943,29.68548775,28.85042953,26.12587166,26.10781479,24.14341927,30.01208878,28.67515373,20.7880249,24.28881836,33.80760956,33.31208038,35.69034195,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Syrian Arab Republic,SYR,50.34679031,46.96702957,47.33362961,46.14907074,44.86793137,44.79366684,45.19852448,45.28663635,..,..,..,..,..,..,..,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,South Africa,ZAF,40.00241852,46.9732132,47.79261017,47.35287857,49.7391243,51.3285141,51.8671875,51.72668076,51.15374756,55.56298065,57.07822418,56.60218048,57.11715317,57.29660797,58.76000977,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,"Congo, Dem. Rep.",COD,5.12782812,5.15119457,5.61059999,5.84641886,6.85446548,10.3062582,10.8527813,16.13481903,13.97492123,13.8438139,16.67854691,12.62530518,9.94900703,15.07837772,15.8180418,..
-Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Thailand,THA,63.71009445,71.95246124,75.60998535,75.36881256,73.1287384,73.77249908,76.42584229,76.07963562,75.95276642,75.68395233,74.93961334,75.95375061,71.96782684,70.46959686,71.65899658,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Canada,CAN,3.1,3.02,2.96,2.85,2.8,2.78,2.8,2.79,2.72,2.67,2.62,2.6,2.53,2.55,2.52,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,United States,USA,3.2,3.18,3.14,3.13,3.08,3.05,2.97,2.93,2.89,2.83,2.8,2.77,2.87,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Brazil,BRA,2.52,2.48,2.47,2.44,2.43,2.37,2.31,2.27,2.25,2.22,2.15,2.11,2.09,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Mexico,MEX,1.05,1.02,1.06,1.03,1.02,1.05,1.04,1.03,1.03,1.03,1,1,0.99,0.98,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Niger,NER,0.3,..,..,..,..,0.35,..,..,..,..,0.31,..,0.39,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Syrian Arab Republic,SYR,1.28,1.47,1.47,1.54,1.51,1.54,1.55,1.53,1.52,1.5,1.47,1.46,1.4,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,South Africa,ZAF,2.8,..,2.41,2.39,..,2.3,..,..,..,..,..,..,..,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,"Congo, Dem. Rep.",COD,1.1,0.8,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Thailand,THA,2.1,..,..,..,..,2.1,..,..,..,..,..,..,..,..,..,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Canada,CAN,14,14,14,28,42,56,70,70,55,55,69,70,71,71,74,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,United States,USA,93,93,93,94,92,92,91,90,91,92,92,93,93,91,91,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Brazil,BRA,98,99,99,96,99,96,98,96,96,96,96,89,93,93,80,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Mexico,MEX,98,98,98,97,95,93,98,99,82,84,82,93,58,55,56,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Niger,NER,..,..,..,..,71,70,75,71,73,81,84,80,85,79,81,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Syrian Arab Republic,SYR,83,83,83,83,84,84,66,43,71,47,41,42,48,47,54,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,South Africa,ZAF,79,83,83,76,74,71,76,70,73,85,85,76,76,74,77,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,"Congo, Dem. Rep.",COD,..,..,70,65,72,60,74,75,68,68,63,57,57,57,57,..
-"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Thailand,THA,96,96,96,98,98,98,98,98,99,99,99,99,99,97,97,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Canada,CAN,93,95,94,92,91,89,87,91,91,91,91,91,91,91,91,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,United States,USA,96,96,96,96,95,95,96,94,94,95,95,95,95,94,94,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Brazil,BRA,99,99,99,99,99,99,99,95,97,93,96,89,89,87,73,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Mexico,MEX,98,98,98,96,95,95,97,99,83,87,87,93,85,88,82,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Niger,NER,45,51,57,67,71,70,75,71,73,81,84,80,85,79,81,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Syrian Arab Republic,SYR,80,80,80,79,80,80,72,45,41,43,41,42,48,47,54,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,South Africa,ZAF,81,84,85,82,81,77,75,71,81,85,85,76,76,74,77,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,"Congo, Dem. Rep.",COD,60,62,70,65,72,60,74,75,68,68,63,57,57,57,57,..
-"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Thailand,THA,98,98,98,99,99,99,99,99,99,99,99,99,99,97,97,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Canada,CAN,93,95,99,96,93,90,87,91,91,91,91,91,91,91,91,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,United States,USA,92,93,93,94,93,93,94,93,93,93,93,94,94,93,93,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Brazil,BRA,99,99,99,99,99,99,98,96,96,96,98,72,75,85,85,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Mexico,MEX,98,98,98,96,95,95,97,99,83,87,87,96,85,88,82,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Niger,NER,46,52,57,68,71,75,40,71,62,79,83,82,85,79,81,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Syrian Arab Republic,SYR,83,83,83,83,83,83,60,47,50,52,50,48,53,53,60,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,South Africa,ZAF,75,79,79,77,75,72,71,69,79,85,85,76,76,74,77,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,"Congo, Dem. Rep.",COD,60,62,72,64,78,76,77,73,66,68,63,57,59,59,59,..
-"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Thailand,THA,98,98,98,99,99,99,99,99,99,99,99,99,99,97,97,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Canada,CAN,93,95,93,92,91,90,89,90,91,91,91,91,91,91,91,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,United States,USA,94,93,93,91,84,90,94,93,93,93,93,93,93,92,91,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Brazil,BRA,96,97,98,99,99,99,99,95,98,95,96,89,93,83,80,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Mexico,MEX,98,98,98,96,95,95,97,99,83,87,87,93,85,88,82,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Niger,NER,..,..,..,..,71,70,75,71,73,81,84,80,85,79,81,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Syrian Arab Republic,SYR,80,80,80,79,80,80,72,45,41,43,41,42,48,47,54,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,South Africa,ZAF,82,84,84,80,77,72,71,69,79,85,85,76,76,74,77,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,"Congo, Dem. Rep.",COD,..,..,..,..,72,60,74,75,68,68,63,57,57,57,57,..
-"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Thailand,THA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Canada,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,United States,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Brazil,BRA,99,99,99,99,99,99,99,99,99,99,99,90,91,92,79,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Mexico,MEX,99,99,99,99,99,98,99,99,91,96,98,99,94,96,76,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Niger,NER,64,69,73,78,86,81,53,85,43,87,94,91,92,87,70,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Syrian Arab Republic,SYR,90,91,93,93,95,97,90,82,84,81,66,72,78,79,84,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,South Africa,ZAF,76,79,79,84,82,81,84,86,88,93,83,90,75,70,84,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,"Congo, Dem. Rep.",COD,72,72,80,78,85,85,66,83,82,77,72,73,73,73,73,..
-"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Thailand,THA,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Canada,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,United States,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Brazil,BRA,..,..,..,..,..,..,..,..,..,..,13940,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Mexico,MEX,..,..,..,..,..,..,..,..,..,..,1303,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Niger,NER,..,..,..,..,..,..,..,..,..,263,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Syrian Arab Republic,SYR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,South Africa,ZAF,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,"Congo, Dem. Rep.",COD,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Thailand,THA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Series Name,Series Code,Country Name,Country Code,2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Canada,CAN,73.03554535,69.435112,69.58927917,69.75228882,70.17884064,69.90503693,70.21539307,70.44465637,70.7170639,70.56432343,70.62810516,69.65316772,69.79706573,70.16950989,70.16747284,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,United States,USA,45.39122772,46.26139069,46.34472275,47.49931717,48.51221466,48.86313248,48.94212341,48.84257889,49.46422958,50.69041824,51.15266418,50.80243301,50.6502037,50.77178955,50.84327316,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Brazil,BRA,41.6314621,42.92739487,42.48596573,43.74353027,44.16326523,45.02125549,44.49915695,43.36180878,44.51945877,44.05274582,43.25646591,43.06282806,41.73838043,41.09182358,40.74078369,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Mexico,MEX,42.23654556,42.82709122,43.81832123,45.91358185,46.66846848,50.21875,52.80387878,53.08211899,53.75115967,52.08169937,52.20096588,51.27971649,50.53536987,49.67456055,49.307724,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Niger,NER,33.8276062,35.4354248,27.86895943,29.68548775,28.85042953,26.12587166,26.10781479,24.14341927,30.01208878,28.67515373,20.7880249,24.28881836,33.80760956,33.31208038,35.69034195,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Syrian Arab Republic,SYR,50.34679031,46.96702957,47.33362961,46.14907074,44.86793137,44.79366684,45.19852448,45.28663635,0,0,0,0,0,0,0,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,South Africa,ZAF,40.00241852,46.9732132,47.79261017,47.35287857,49.7391243,51.3285141,51.8671875,51.72668076,51.15374756,55.56298065,57.07822418,56.60218048,57.11715317,57.29660797,58.76000977,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,"Congo, Dem. Rep.",COD,5.12782812,5.15119457,5.61059999,5.84641886,6.85446548,10.3062582,10.8527813,16.13481903,13.97492123,13.8438139,16.67854691,12.62530518,9.94900703,15.07837772,15.8180418,0
+Domestic general government health expenditure (% of current health expenditure),SH.XPD.GHED.CH.ZS,Thailand,THA,63.71009445,71.95246124,75.60998535,75.36881256,73.1287384,73.77249908,76.42584229,76.07963562,75.95276642,75.68395233,74.93961334,75.95375061,71.96782684,70.46959686,71.65899658,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Canada,CAN,3.1,3.02,2.96,2.85,2.8,2.78,2.8,2.79,2.72,2.67,2.62,2.6,2.53,2.55,2.52,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,United States,USA,3.2,3.18,3.14,3.13,3.08,3.05,2.97,2.93,2.89,2.83,2.8,2.77,2.87,0,0,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Brazil,BRA,2.52,2.48,2.47,2.44,2.43,2.37,2.31,2.27,2.25,2.22,2.15,2.11,2.09,0,0,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Mexico,MEX,1.05,1.02,1.06,1.03,1.02,1.05,1.04,1.03,1.03,1.03,1,1,0.99,0.98,0,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Niger,NER,0.3,0,0,0,0,0.35,0,0,0,0,0.31,0,0.39,0,0,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Syrian Arab Republic,SYR,1.28,1.47,1.47,1.54,1.51,1.54,1.55,1.53,1.52,1.5,1.47,1.46,1.4,0,0,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,South Africa,ZAF,2.8,0,2.41,2.39,0,2.3,0,0,0,0,0,0,0,0,0,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,"Congo, Dem. Rep.",COD,1.1,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Thailand,THA,2.1,0,0,0,0,2.1,0,0,0,0,0,0,0,0,0,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Canada,CAN,14,14,14,28,42,56,70,70,55,55,69,70,71,71,74,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,United States,USA,93,93,93,94,92,92,91,90,91,92,92,93,93,91,91,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Brazil,BRA,98,99,99,96,99,96,98,96,96,96,96,89,93,93,80,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Mexico,MEX,98,98,98,97,95,93,98,99,82,84,82,93,58,55,56,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Niger,NER,0,0,0,0,71,70,75,71,73,81,84,80,85,79,81,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Syrian Arab Republic,SYR,83,83,83,83,84,84,66,43,71,47,41,42,48,47,54,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,South Africa,ZAF,79,83,83,76,74,71,76,70,73,85,85,76,76,74,77,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,"Congo, Dem. Rep.",COD,0,0,70,65,72,60,74,75,68,68,63,57,57,57,57,0
+"Immunization, HepB3 (% of one-year-old children)",SH.IMM.HEPB,Thailand,THA,96,96,96,98,98,98,98,98,99,99,99,99,99,97,97,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Canada,CAN,93,95,94,92,91,89,87,91,91,91,91,91,91,91,91,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,United States,USA,96,96,96,96,95,95,96,94,94,95,95,95,95,94,94,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Brazil,BRA,99,99,99,99,99,99,99,95,97,93,96,89,89,87,73,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Mexico,MEX,98,98,98,96,95,95,97,99,83,87,87,93,85,88,82,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Niger,NER,45,51,57,67,71,70,75,71,73,81,84,80,85,79,81,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Syrian Arab Republic,SYR,80,80,80,79,80,80,72,45,41,43,41,42,48,47,54,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,South Africa,ZAF,81,84,85,82,81,77,75,71,81,85,85,76,76,74,77,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,"Congo, Dem. Rep.",COD,60,62,70,65,72,60,74,75,68,68,63,57,57,57,57,0
+"Immunization, DPT (% of children ages 12-23 months)",SH.IMM.IDPT,Thailand,THA,98,98,98,99,99,99,99,99,99,99,99,99,99,97,97,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Canada,CAN,93,95,99,96,93,90,87,91,91,91,91,91,91,91,91,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,United States,USA,92,93,93,94,93,93,94,93,93,93,93,94,94,93,93,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Brazil,BRA,99,99,99,99,99,99,98,96,96,96,98,72,75,85,85,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Mexico,MEX,98,98,98,96,95,95,97,99,83,87,87,96,85,88,82,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Niger,NER,46,52,57,68,71,75,40,71,62,79,83,82,85,79,81,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Syrian Arab Republic,SYR,83,83,83,83,83,83,60,47,50,52,50,48,53,53,60,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,South Africa,ZAF,75,79,79,77,75,72,71,69,79,85,85,76,76,74,77,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,"Congo, Dem. Rep.",COD,60,62,72,64,78,76,77,73,66,68,63,57,59,59,59,0
+"Immunization, Pol3 (% of one-year-old children)",SH.IMM.POL3,Thailand,THA,98,98,98,99,99,99,99,99,99,99,99,99,99,97,97,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Canada,CAN,93,95,93,92,91,90,89,90,91,91,91,91,91,91,91,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,United States,USA,94,93,93,91,84,90,94,93,93,93,93,93,93,92,91,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Brazil,BRA,96,97,98,99,99,99,99,95,98,95,96,89,93,83,80,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Mexico,MEX,98,98,98,96,95,95,97,99,83,87,87,93,85,88,82,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Niger,NER,0,0,0,0,71,70,75,71,73,81,84,80,85,79,81,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Syrian Arab Republic,SYR,80,80,80,79,80,80,72,45,41,43,41,42,48,47,54,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,South Africa,ZAF,82,84,84,80,77,72,71,69,79,85,85,76,76,74,77,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,"Congo, Dem. Rep.",COD,0,0,0,0,72,60,74,75,68,68,63,57,57,57,57,0
+"Immunization, Hib3 (% of children ages 12-23 months)",SH.IMM.HIB3,Thailand,THA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Canada,CAN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,United States,USA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Brazil,BRA,99,99,99,99,99,99,99,99,99,99,99,90,91,92,79,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Mexico,MEX,99,99,99,99,99,98,99,99,91,96,98,99,94,96,76,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Niger,NER,64,69,73,78,86,81,53,85,43,87,94,91,92,87,70,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Syrian Arab Republic,SYR,90,91,93,93,95,97,90,82,84,81,66,72,78,79,84,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,South Africa,ZAF,76,79,79,84,82,81,84,86,88,93,83,90,75,70,84,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,"Congo, Dem. Rep.",COD,72,72,80,78,85,85,66,83,82,77,72,73,73,73,73,0
+"Immunization, BCG (% of one-year-old children)",SH.IMM.IBCG,Thailand,THA,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Canada,CAN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,United States,USA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Brazil,BRA,0,0,0,0,0,0,0,0,0,0,13940,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Mexico,MEX,0,0,0,0,0,0,0,0,0,0,1303,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Niger,NER,0,0,0,0,0,0,0,0,0,263,0,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Syrian Arab Republic,SYR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,South Africa,ZAF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,"Congo, Dem. Rep.",COD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Thailand,THA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Number of infant deaths,SH.DTH.IMRT,Canada,CAN,1800,1825,1845,1860,1869,1871,1866,1855,1839,1820,1799,1777,1757,1736,1715,1692
 Number of infant deaths,SH.DTH.IMRT,United States,USA,27762,27585,27261,26788,26200,25530,24844,24184,23594,23089,22671,22334,22068,21847,21652,21451
 Number of infant deaths,SH.DTH.IMRT,Brazil,BRA,71001,65431,60568,56392,52929,50020,47673,45811,44313,43119,42104,44108,40403,39558,38646,37657
@@ -98,69 +98,69 @@ Number of deaths ages 20-24 years,SH.DTH.2024,Syrian Arab Republic,SYR,1111,1175
 Number of deaths ages 20-24 years,SH.DTH.2024,South Africa,ZAF,28082,27678,26798,25485,23909,22211,20471,18910,17537,16373,15412,14589,13850,13162,12529,11940
 Number of deaths ages 20-24 years,SH.DTH.2024,"Congo, Dem. Rep.",COD,21274,21687,22171,22737,23355,24005,24631,25283,25909,26492,27116,27854,28587,29183,29933,30724
 Number of deaths ages 20-24 years,SH.DTH.2024,Thailand,THA,9723,8966,8279,7697,7238,6874,6613,6452,6409,6465,6557,6646,6676,6629,6504,6337
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Canada,CAN,7.1,7,7.1,7.2,7.1,7,7.1,7.1,7.2,7.3,7.4,7.4,7.5,7.7,7.6,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,United States,USA,8.3,8.1,8,8.1,7.9,7.995,8.073,8.102,8.215,8.237,8.44,8.493,8.638,8.678,8.7,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Brazil,BRA,6.037,6.022,6.016,6.017,6.027,6.045,6.071,6.106,6.147,6.195,6.25,6.311,6.378,6.452,6.531,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Mexico,MEX,4.792,4.869,4.961,5.06,5.163,5.266,5.369,5.471,5.572,5.67,5.763,5.851,5.933,6.01,6.082,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Niger,NER,14.296,13.683,13.073,12.477,11.901,11.353,10.838,10.359,9.916,9.511,9.145,8.82,8.529,8.268,8.033,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Syrian Arab Republic,SYR,3.399,3.443,3.581,3.813,4.127,4.495,4.878,5.229,5.51,5.697,5.771,5.726,5.584,5.373,5.112,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,South Africa,ZAF,13.994,13.897,13.624,13.206,12.677,12.085,11.483,10.918,10.43,10.044,9.769,9.599,9.498,9.435,9.398,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,"Congo, Dem. Rep.",COD,13.573,13.12,12.694,12.295,11.926,11.587,11.273,10.978,10.696,10.424,10.164,9.919,9.691,9.482,9.292,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Thailand,THA,7.123,7.141,7.154,7.164,7.175,7.191,7.213,7.241,7.279,7.327,7.389,7.467,7.559,7.666,7.786,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Canada,CAN,58.6,59.2,59.7,60.2,60.7,61.2,61.7,62.2,62.7,63.2,63.7,64.1,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,United States,USA,61.9,62.5,63.1,63.7,64.2,64.8,65.3,65.8,66.4,66.9,67.4,67.9,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Brazil,BRA,49.5,50.2,50.8,51.5,52.1,52.7,53.4,54,54.6,55.3,55.9,56.5,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Mexico,MEX,58.9,59.5,60.1,60.6,61.2,61.7,62.3,62.8,63.3,63.9,64.4,64.9,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Niger,NER,16.9,17.3,17.7,18.2,18.6,19.1,19.5,20,20.5,21,21.5,22,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Syrian Arab Republic,SYR,53.5,54.2,54.9,55.7,56.4,57.1,57.8,58.5,59.3,60,60.7,61.4,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,South Africa,ZAF,46.5,47.2,47.9,48.6,49.2,49.9,50.6,51.2,51.9,52.5,53.2,53.8,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,"Congo, Dem. Rep.",COD,19.3,19.8,20.3,20.8,21.3,21.8,22.4,23,23.5,24.1,24.7,25.3,..,..,..,..
-Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Thailand,THA,22.3,23.1,24,24.9,25.8,26.7,27.6,28.6,29.6,30.6,31.6,32.6,..,..,..,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Canada,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,United States,USA,..,8,..,7.4,..,9,..,6.4,..,8.2,..,9.4,..,9.4,..,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Brazil,BRA,..,..,6.4,..,..,..,..,..,..,..,..,..,..,..,..,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Mexico,MEX,..,7.5,..,..,..,..,..,9,..,..,5.2,5.3,..,..,6.3,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Niger,NER,..,0.9,0.3,0.1,0.2,0.1,0.1,0.8,0.4,0.5,0.6,1.1,..,1,1.4,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Syrian Arab Republic,SYR,..,18.7,..,..,..,17.9,..,..,..,..,..,..,..,..,..,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,South Africa,ZAF,..,..,..,13.2,..,..,..,..,..,..,13.6,13.3,11.6,..,..,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,"Congo, Dem. Rep.",COD,..,..,7,..,..,4.9,..,..,4.4,..,..,..,3.8,..,..,..
-Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Thailand,THA,..,8,..,..,..,..,..,10.9,..,..,..,8.2,..,..,9.2,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Canada,CAN,..,..,..,..,..,..,8.4,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,United States,USA,..,..,..,..,..,..,9.4,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Brazil,BRA,..,..,..,..,..,..,10.1,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Mexico,MEX,..,..,..,..,..,..,15.6,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Niger,NER,..,..,..,..,..,..,4.2,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Syrian Arab Republic,SYR,..,..,..,..,..,..,9.9,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,South Africa,ZAF,..,..,..,..,..,..,7,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,"Congo, Dem. Rep.",COD,..,..,..,..,..,..,3.1,..,..,..,..,..,..,..,..,..
-Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Thailand,THA,..,..,..,..,..,..,7.5,..,..,..,..,..,..,..,..,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Canada,CAN,12.7,12.3,12.2,11.9,11.5,11.1,10.8,10.7,10.5,10.4,10.3,10.4,10.1,9.8,9.6,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,United States,USA,16.1,15.7,15.4,15.2,14.9,14.5,14.3,14.2,14,13.9,13.9,14,13.8,13.6,13.6,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Brazil,BRA,19,18.7,18.4,18.4,18,17.7,17.6,17.1,16.8,16.3,16.2,16.3,15.8,15.7,15.5,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Mexico,MEX,16.7,16.4,16.1,16.4,16.1,15.9,15.4,15.5,15.2,15.6,15.7,16,15.7,15.6,15.6,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Niger,NER,21.8,21.6,21.6,21.3,21.3,21.4,21.4,21.5,21.5,21.5,21.5,21.4,21.3,21.1,21,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Syrian Arab Republic,SYR,22.8,22.1,21.7,22.1,21.5,21.2,21,21.5,21.7,21.8,21.8,21.6,22.1,22.2,22.1,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,South Africa,ZAF,32.3,32.4,32.2,32.3,32,31.3,30,29.1,28.5,28.7,28.8,28.5,27.8,25.5,24.1,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,"Congo, Dem. Rep.",COD,27.5,27.3,26.8,26.8,27,26.7,26.3,25.9,25.3,24.8,24.3,23.9,23.7,24.1,24,..
-"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Thailand,THA,16.8,16.4,15.7,15.3,14.9,14.9,14.6,14.3,13.9,13.9,13.8,14,13.8,13.8,13.7,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Canada,CAN,10.3,10.3,10.3,10.3,10.4,10.4,10.5,10.7,10.9,11.2,11.5,11.8,12.2,12.7,13.2,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,United States,USA,5.9,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.9,5.9,6,6.1,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Brazil,BRA,22.2,21.4,20.6,19.7,18.7,17.7,16.7,15.9,15.1,14.3,13.7,13,12.5,11.9,11.6,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Mexico,MEX,28,27.5,26.9,26.3,25.7,25.1,24.5,23.9,23.4,22.9,22.5,22.2,21.9,21.7,21.7,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Niger,NER,81.5,80.8,80,79.3,78.5,77.8,77.1,76.5,76,75.6,75.1,74.5,73.8,72.9,72,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Syrian Arab Republic,SYR,31.4,31.1,31,30.8,30.6,30.5,30.5,30.6,30.7,30.9,31.2,31.6,32,32.5,32.9,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,South Africa,ZAF,40.8,40.9,40.1,38.9,37.2,35.6,34.6,34.5,35.3,36.6,38,39.6,41.2,42.9,44.4,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,"Congo, Dem. Rep.",COD,72.8,72.1,71.3,70.5,69.9,69.3,68.8,68.4,68,67.7,67.3,66.9,66.3,65.6,64.9,..
-Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Thailand,THA,25.2,25.1,24.9,24.7,24.5,24.4,24.3,24.3,24.2,24.3,24.4,24.5,24.6,24.7,24.9,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Canada,CAN,8.6,8.5,8.5,8.5,8.5,8.5,8.6,8.7,8.8,8.9,9.1,9.3,9.5,9.8,10.2,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,United States,USA,8.1,8.4,8.6,8.9,9.2,9.4,9.8,10,10.3,10.5,10.7,11,11.2,11.5,11.8,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Brazil,BRA,24.2,23.6,22.8,21.9,20.9,19.8,19,18.3,17.6,17.1,16.7,16.4,16.2,16.1,16,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Mexico,MEX,19.5,18.9,18.2,17.6,17,16.5,16,15.6,15.3,15.1,14.9,14.8,14.8,14.9,15.1,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Niger,NER,48.7,48.4,48.3,48.1,47.9,47.7,47.7,47.9,48,48.1,48.3,48.4,48.5,48.6,48.6,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Syrian Arab Republic,SYR,34.3,33.7,33.3,32.9,32.4,32,31.8,31.6,31.7,31.7,31.8,32,32.2,32.4,32.8,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,South Africa,ZAF,32.4,31.7,30.9,30.2,29.5,29,28.7,28.5,28.5,28.6,28.8,29.1,29.4,29.9,30.5,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,"Congo, Dem. Rep.",COD,51.1,50.6,50.1,49.3,48.4,47.5,46.6,45.8,44.9,44.1,43.4,42.9,42.4,42.1,41.9,..
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Thailand,THA,21,21.2,21.3,21.4,21.5,21.5,21.7,21.9,22,22.2,22.5,22.8,23.1,23.4,23.8,..
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Canada,CAN,7.1,7,7.1,7.2,7.1,7,7.1,7.1,7.2,7.3,7.4,7.4,7.5,7.7,7.6,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,United States,USA,8.3,8.1,8,8.1,7.9,7.995,8.073,8.102,8.215,8.237,8.44,8.493,8.638,8.678,8.7,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Brazil,BRA,6.037,6.022,6.016,6.017,6.027,6.045,6.071,6.106,6.147,6.195,6.25,6.311,6.378,6.452,6.531,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Mexico,MEX,4.792,4.869,4.961,5.06,5.163,5.266,5.369,5.471,5.572,5.67,5.763,5.851,5.933,6.01,6.082,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Niger,NER,14.296,13.683,13.073,12.477,11.901,11.353,10.838,10.359,9.916,9.511,9.145,8.82,8.529,8.268,8.033,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Syrian Arab Republic,SYR,3.399,3.443,3.581,3.813,4.127,4.495,4.878,5.229,5.51,5.697,5.771,5.726,5.584,5.373,5.112,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,South Africa,ZAF,13.994,13.897,13.624,13.206,12.677,12.085,11.483,10.918,10.43,10.044,9.769,9.599,9.498,9.435,9.398,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,"Congo, Dem. Rep.",COD,13.573,13.12,12.694,12.295,11.926,11.587,11.273,10.978,10.696,10.424,10.164,9.919,9.691,9.482,9.292,0
+"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Thailand,THA,7.123,7.141,7.154,7.164,7.175,7.191,7.213,7.241,7.279,7.327,7.389,7.467,7.559,7.666,7.786,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Canada,CAN,58.6,59.2,59.7,60.2,60.7,61.2,61.7,62.2,62.7,63.2,63.7,64.1,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,United States,USA,61.9,62.5,63.1,63.7,64.2,64.8,65.3,65.8,66.4,66.9,67.4,67.9,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Brazil,BRA,49.5,50.2,50.8,51.5,52.1,52.7,53.4,54,54.6,55.3,55.9,56.5,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Mexico,MEX,58.9,59.5,60.1,60.6,61.2,61.7,62.3,62.8,63.3,63.9,64.4,64.9,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Niger,NER,16.9,17.3,17.7,18.2,18.6,19.1,19.5,20,20.5,21,21.5,22,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Syrian Arab Republic,SYR,53.5,54.2,54.9,55.7,56.4,57.1,57.8,58.5,59.3,60,60.7,61.4,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,South Africa,ZAF,46.5,47.2,47.9,48.6,49.2,49.9,50.6,51.2,51.9,52.5,53.2,53.8,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,"Congo, Dem. Rep.",COD,19.3,19.8,20.3,20.8,21.3,21.8,22.4,23,23.5,24.1,24.7,25.3,0,0,0,0
+Prevalence of overweight (% of adults),SH.STA.OWAD.ZS,Thailand,THA,22.3,23.1,24,24.9,25.8,26.7,27.6,28.6,29.6,30.6,31.6,32.6,0,0,0,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Canada,CAN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,United States,USA,0,8,0,7.4,0,9,0,6.4,0,8.2,0,9.4,0,9.4,0,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Brazil,BRA,0,0,6.4,0,0,0,0,0,0,0,0,0,0,0,0,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Mexico,MEX,0,7.5,0,0,0,0,0,9,0,0,5.2,5.3,0,0,6.3,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Niger,NER,0,0.9,0.3,0.1,0.2,0.1,0.1,0.8,0.4,0.5,0.6,1.1,0,1,1.4,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Syrian Arab Republic,SYR,0,18.7,0,0,0,17.9,0,0,0,0,0,0,0,0,0,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,South Africa,ZAF,0,0,0,13.2,0,0,0,0,0,0,13.6,13.3,11.6,0,0,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,"Congo, Dem. Rep.",COD,0,0,7,0,0,4.9,0,0,4.4,0,0,0,3.8,0,0,0
+Prevalence of overweight (% of children under 5),SH.STA.OWGH.ZS,Thailand,THA,0,8,0,0,0,0,0,10.9,0,0,0,8.2,0,0,9.2,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Canada,CAN,0,0,0,0,0,0,8.4,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,United States,USA,0,0,0,0,0,0,9.4,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Brazil,BRA,0,0,0,0,0,0,10.1,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Mexico,MEX,0,0,0,0,0,0,15.6,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Niger,NER,0,0,0,0,0,0,4.2,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Syrian Arab Republic,SYR,0,0,0,0,0,0,9.9,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,South Africa,ZAF,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,"Congo, Dem. Rep.",COD,0,0,0,0,0,0,3.1,0,0,0,0,0,0,0,0,0
+Diabetes prevalence (% of population ages 20 to 79),SH.STA.DIAB.ZS,Thailand,THA,0,0,0,0,0,0,7.5,0,0,0,0,0,0,0,0,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Canada,CAN,12.7,12.3,12.2,11.9,11.5,11.1,10.8,10.7,10.5,10.4,10.3,10.4,10.1,9.8,9.6,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,United States,USA,16.1,15.7,15.4,15.2,14.9,14.5,14.3,14.2,14,13.9,13.9,14,13.8,13.6,13.6,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Brazil,BRA,19,18.7,18.4,18.4,18,17.7,17.6,17.1,16.8,16.3,16.2,16.3,15.8,15.7,15.5,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Mexico,MEX,16.7,16.4,16.1,16.4,16.1,15.9,15.4,15.5,15.2,15.6,15.7,16,15.7,15.6,15.6,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Niger,NER,21.8,21.6,21.6,21.3,21.3,21.4,21.4,21.5,21.5,21.5,21.5,21.4,21.3,21.1,21,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Syrian Arab Republic,SYR,22.8,22.1,21.7,22.1,21.5,21.2,21,21.5,21.7,21.8,21.8,21.6,22.1,22.2,22.1,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,South Africa,ZAF,32.3,32.4,32.2,32.3,32,31.3,30,29.1,28.5,28.7,28.8,28.5,27.8,25.5,24.1,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,"Congo, Dem. Rep.",COD,27.5,27.3,26.8,26.8,27,26.7,26.3,25.9,25.3,24.8,24.3,23.9,23.7,24.1,24,0
+"Mortality from CVD, cancer, diabetes or CRD between exact ages 30 and 70 (%)",SH.DYN.NCOM.ZS,Thailand,THA,16.8,16.4,15.7,15.3,14.9,14.9,14.6,14.3,13.9,13.9,13.8,14,13.8,13.8,13.7,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Canada,CAN,10.3,10.3,10.3,10.3,10.4,10.4,10.5,10.7,10.9,11.2,11.5,11.8,12.2,12.7,13.2,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,United States,USA,5.9,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.8,5.9,5.9,6,6.1,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Brazil,BRA,22.2,21.4,20.6,19.7,18.7,17.7,16.7,15.9,15.1,14.3,13.7,13,12.5,11.9,11.6,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Mexico,MEX,28,27.5,26.9,26.3,25.7,25.1,24.5,23.9,23.4,22.9,22.5,22.2,21.9,21.7,21.7,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Niger,NER,81.5,80.8,80,79.3,78.5,77.8,77.1,76.5,76,75.6,75.1,74.5,73.8,72.9,72,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Syrian Arab Republic,SYR,31.4,31.1,31,30.8,30.6,30.5,30.5,30.6,30.7,30.9,31.2,31.6,32,32.5,32.9,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,South Africa,ZAF,40.8,40.9,40.1,38.9,37.2,35.6,34.6,34.5,35.3,36.6,38,39.6,41.2,42.9,44.4,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,"Congo, Dem. Rep.",COD,72.8,72.1,71.3,70.5,69.9,69.3,68.8,68.4,68,67.7,67.3,66.9,66.3,65.6,64.9,0
+Prevalence of anemia among children (% of children ages 6-59 months),SH.ANM.CHLD.ZS,Thailand,THA,25.2,25.1,24.9,24.7,24.5,24.4,24.3,24.3,24.2,24.3,24.4,24.5,24.6,24.7,24.9,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Canada,CAN,8.6,8.5,8.5,8.5,8.5,8.5,8.6,8.7,8.8,8.9,9.1,9.3,9.5,9.8,10.2,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,United States,USA,8.1,8.4,8.6,8.9,9.2,9.4,9.8,10,10.3,10.5,10.7,11,11.2,11.5,11.8,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Brazil,BRA,24.2,23.6,22.8,21.9,20.9,19.8,19,18.3,17.6,17.1,16.7,16.4,16.2,16.1,16,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Mexico,MEX,19.5,18.9,18.2,17.6,17,16.5,16,15.6,15.3,15.1,14.9,14.8,14.8,14.9,15.1,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Niger,NER,48.7,48.4,48.3,48.1,47.9,47.7,47.7,47.9,48,48.1,48.3,48.4,48.5,48.6,48.6,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Syrian Arab Republic,SYR,34.3,33.7,33.3,32.9,32.4,32,31.8,31.6,31.7,31.7,31.8,32,32.2,32.4,32.8,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,South Africa,ZAF,32.4,31.7,30.9,30.2,29.5,29,28.7,28.5,28.5,28.6,28.8,29.1,29.4,29.9,30.5,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,"Congo, Dem. Rep.",COD,51.1,50.6,50.1,49.3,48.4,47.5,46.6,45.8,44.9,44.1,43.4,42.9,42.4,42.1,41.9,0
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),SH.ANM.NPRG.ZS,Thailand,THA,21,21.2,21.3,21.4,21.5,21.5,21.7,21.9,22,22.2,22.5,22.8,23.1,23.4,23.8,0
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
