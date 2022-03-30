@@ -20,32 +20,98 @@ DROP TABLE IF EXISTS country CASCADE;
 
 CREATE TABLE IF NOT EXISTS country
 (
-    countrycode text NOT NULL UNIQUE,
+    countrycode text NOT NULL,
     countryname text ,
     capital text ,
     currency text ,
     region text ,
     continent text ,
     incomegroup text,
-    population bigint,
-    birthrate bigint,
-    deathrate bigint
+    series_name text,
+	series_code text,
+	yr_2005 decimal,
+    yr_2006 decimal,
+    yr_2007 decimal,
+	yr_2008 decimal,
+	yr_2009 decimal,
+	yr_2010 decimal,
+	yr_2011 decimal,
+	yr_2012 decimal,
+	yr_2013 decimal,
+	yr_2014 decimal,
+	yr_2015 decimal,
+	yr_2016 decimal,
+	yr_2017 decimal,
+	yr_2018 decimal,
+	yr_2019 decimal,
+	yr_2020 decimal
 );
 
-COPY country(countrycode, countryname, currency, region, incomegroup)
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\HNP_StatsCountry.csv' -- Edit local path
+COPY country(countrycode, countryname, capital, region, continent, incomegroup, currency, 
+	series_name, series_code, yr_2005,yr_2006,yr_2007,yr_2008,yr_2009,yr_2010,
+	yr_2011,
+	yr_2012,
+	yr_2013,
+	yr_2014,
+	yr_2015,
+	yr_2016,
+	yr_2017,
+	yr_2018,
+	yr_2019,
+	yr_2020)
+FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\total_population.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
 ALTER TABLE country ADD COLUMN countrykey serial PRIMARY KEY;
+
+/*
+COPY country(countrycode, countryname, currency, region, incomegroup)
+FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\HNP_StatsCountry.csv' -- Edit local path
+DELIMITER ',' CSV HEADER;
 
 -- Delete entries of countries we aren't including
 DELETE from country WHERE country.countryname NOT IN ('Canada', 'United States', 
 						  'Brazil', 'Mexico', 'Congo',
 						  'Niger', 'South Africa', 'Thailand', 'Syrian Arab Republic');
-						  
+				  
+UPDATE country
+SET continent = 'South America' where countryname = 'Brazil';
+UPDATE country
+SET continent = 'North America' where countryname = 'Canada' 
+	or countryname = 'United States'
+	or countryname = 'Mexico';
+UPDATE country
+SET continent = 'Africa' where countryname='Congo'
+	or countryname='Niger' 
+	or countryname='South Africa';
+UPDATE country
+SET continent = 'Asia' where countryname = 'Thailand'
+	or countryname='Syrian Arab Republic';
+	
+UPDATE country
+SET capital = 'Brasilia' where countryname = 'Brazil';
+UPDATE country
+SET capital = 'Ottawa' where countryname = 'Canada';
+UPDATE country
+SET capital = 'Kinshasa' where countryname = 'Congo';
+UPDATE country
+SET capital = 'Mexico City' where countryname = 'Mexico';
+UPDATE country
+SET capital = 'Niamey' where countryname = 'Niger';
+UPDATE country
+SET capital = 'Damascus' where countryname = 'Syrian Arab Republic';
+UPDATE country
+SET capital = 'Bangkok' where countryname = 'Thailand';
+UPDATE country
+SET capital = 'Washington' where countryname = 'United States';
+UPDATE country
+SET capital = 'Cape Town' where countryname = 'South Africa';
+*/	
+
+
 
 ------- Education Dimension -------
-DROP TABLE IF EXISTS education_dim;
+DROP TABLE IF EXISTS education_dim CASCADE;
 CREATE TABLE education_dim
 (
 country_name varchar, 
@@ -74,7 +140,7 @@ COPY education_dim
 FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_educationDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
-
+DELETE FROM education_dim WHERE country_code IS NULL;
 ALTER TABLE education_dim ADD COLUMN educationkey serial PRIMARY KEY;
 -----------Population Dimension ----------
 DROP TABLE IF EXISTS population_dim CASCADE;
@@ -106,10 +172,11 @@ COPY population_dim
 FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_populationDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
+DELETE FROM population_dim WHERE country_code IS NULL;
 ALTER TABLE population_dim ADD COLUMN populationkey serial PRIMARY KEY;
-/*
+
 -----------Health Dimension ----------
-DROP TABLE IF EXISTS health_dim;
+DROP TABLE IF EXISTS health_dim CASCADE;
 CREATE TABLE health_dim
 (
 series_name varchar,
@@ -138,11 +205,11 @@ COPY health_dim
 FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_healthDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
-
+DELETE FROM health_dim WHERE country_code IS NULL;
 ALTER TABLE health_dim ADD COLUMN healthkey serial PRIMARY KEY;
 
 -----------Quality of Life Dimension ----------
-DROP TABLE IF EXISTS quality_dim;
+DROP TABLE IF EXISTS quality_dim CASCADE;
 CREATE TABLE quality_dim 
 (
 series_name varchar,
@@ -171,41 +238,42 @@ COPY quality_dim
 FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_qualityDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
-
-ALTER TABLE quality_dim ADD COLUMN qualitykey serial PRIMARY KEY;*/
+DELETE FROM quality_dim WHERE country_code IS NULL;
+ALTER TABLE quality_dim ADD COLUMN qualitykey serial PRIMARY KEY;
 ------------------------- Create Fact Table
 DROP TABLE IF EXISTS fact;
-
-SELECT m.monthkey, c.countrycode, p.populationkey--, e.educationkey
+/*
+SELECT m.monthkey, c.countrycode, p.populationkey, e.educationkey, h.healthkey
 INTO fact
-from months m, Country c, population_dim p;--, education_dim e;
+from months m, Country c, population_dim p, education_dim e, health_dim h/*, 
+	(SELECT e.educationkey FROM Country c LEFT OUTER JOIN education_dim e ON e.country_code = c.countrycode) x*/
+where p.country_code=c.countrycode and e.country_code=c.countrycode and h.country_code = c.countrycode;*/
 
---ALTER TABLE fact
---	ADD UNIQUE (countrycode, populationkey);
+SELECT m.monthkey, x.countrykey, x.educationkey, x.populationkey, x.healthkey, x.qualitykey  
+INTO fact
+FROM
+months m, (SELECT e.educationkey, c.countrykey, p.populationkey, h.healthkey, q.qualitykey
+ 	FROM Country c 
+ 	INNER JOIN education_dim e 
+ 		ON e.country_code = c.countrycode
+	INNER JOIN population_dim p
+		ON p.country_code = c.countrycode
+	INNER JOIN health_dim h
+		ON h.country_code = c.countrycode
+	INNER JOIN quality_dim q
+		ON q.country_code = c.countrycode) x;
 
 ALTER TABLE fact
-	ADD CONSTRAINT fk_countrycode FOREIGN KEY (countrycode) REFERENCES country(countrycode),
+	ADD CONSTRAINT fk_countrykey FOREIGN KEY (countrykey) REFERENCES country(countrykey),
+	--ADD CONSTRAINT fk_countrycode FOREIGN KEY (countrycode) REFERENCES country(countrycode),
 	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey),
-	ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey);
-/*	
-ALTER TABLE fact
-	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey);
-
-ALTER TABLE fact
-    ADD CONSTRAINT fk_educationkey FOREIGN KEY (educationkey) REFERENCES education_dim(educationkey);
-
-ALTER TABLE fact
-    ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey);
-
-ALTER TABLE fact
-    ADD CONSTRAINT fk_healthkey FOREIGN KEY (healthkey) REFERENCES health_dim(healthkey);
-
-ALTER TABLE fact
-    ADD CONSTRAINT fk_qualitykey FOREIGN KEY (qualitykey) REFERENCES quality_dim(qualitykey);
-	*/
+	ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey),
+	ADD CONSTRAINT fk_educationkey FOREIGN KEY (educationkey) REFERENCES education_dim(educationkey),
+	ADD CONSTRAINT fk_healthkey FOREIGN KEY (healthkey) REFERENCES health_dim(healthkey),
+	ADD CONSTRAINT fk_qualitykey FOREIGN KEY (qualitykey) REFERENCES quality_dim(qualitykey);
 ------------------------- Load Development index data into a temporary table.
 drop table if exists index_dev;
-
+/*
 create table index_dev (
 	countryName text NOT NULL,
 	countrycode text NOT NULL,yr_2005 decimal,
@@ -256,7 +324,7 @@ COPY qol_index
 FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\qol_idx.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
--- Create a numeric column to store the qol data. 
+-- Create a numeric column to store the qol data.
 alter table fact drop if exists qol;
 alter table fact add qol numeric;
 -- Update the fact table.
@@ -282,8 +350,11 @@ update fact as f
 	WHERE q.countrycode = f.countrycode AND m.monthkey = f.monthkey;
 
 DROP TABLE qol_index;
-
+*/
 
 -- Add PK to the Fact Table.
+ALTER TABLE fact DROP COLUMN IF EXISTS factkey;
 ALTER TABLE fact ADD COLUMN factkey serial PRIMARY KEY;
 --ALTER TABLE fact ADD PRIMARY KEY (monthkey, countrycode, populationkey)
+
+SELECT reltuples AS estimate FROM pg_class where relname = 'fact';
