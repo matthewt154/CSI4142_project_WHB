@@ -49,29 +49,13 @@ CREATE TABLE IF NOT EXISTS country
 
 COPY country(countrycode, countryname, capital, region, continent, incomegroup, currency, 
 	series_name, series_code, yr_2005,yr_2006,yr_2007,yr_2008,yr_2009,yr_2010,
-	yr_2011,
-	yr_2012,
-	yr_2013,
-	yr_2014,
-	yr_2015,
-	yr_2016,
-	yr_2017,
-	yr_2018,
-	yr_2019,
-	yr_2020)
+	yr_2011, yr_2012, yr_2013, yr_2014, yr_2015, yr_2016, yr_2017, yr_2018,
+	yr_2019, yr_2020)
 FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\total_population.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
-ALTER TABLE country ADD COLUMN countrykey serial PRIMARY KEY;
-
-/*
-COPY country(countrycode, countryname, currency, region, incomegroup)
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\HNP_StatsCountry.csv' -- Edit local path
-DELIMITER ',' CSV HEADER;
-
--- Delete entries of countries we aren't including
 DELETE from country WHERE country.countryname NOT IN ('Canada', 'United States', 
-						  'Brazil', 'Mexico', 'Congo',
+						  'Brazil', 'Mexico', 'Congo, Dem. Rep.',
 						  'Niger', 'South Africa', 'Thailand', 'Syrian Arab Republic');
 				  
 UPDATE country
@@ -81,7 +65,7 @@ SET continent = 'North America' where countryname = 'Canada'
 	or countryname = 'United States'
 	or countryname = 'Mexico';
 UPDATE country
-SET continent = 'Africa' where countryname='Congo'
+SET continent = 'Africa' where countryname='Congo, Dem. Rep.'
 	or countryname='Niger' 
 	or countryname='South Africa';
 UPDATE country
@@ -93,7 +77,7 @@ SET capital = 'Brasilia' where countryname = 'Brazil';
 UPDATE country
 SET capital = 'Ottawa' where countryname = 'Canada';
 UPDATE country
-SET capital = 'Kinshasa' where countryname = 'Congo';
+SET capital = 'Kinshasa' where countryname = 'Congo, Dem. Rep.';
 UPDATE country
 SET capital = 'Mexico City' where countryname = 'Mexico';
 UPDATE country
@@ -106,8 +90,8 @@ UPDATE country
 SET capital = 'Washington' where countryname = 'United States';
 UPDATE country
 SET capital = 'Cape Town' where countryname = 'South Africa';
-*/	
 
+ALTER TABLE country ADD COLUMN countrykey serial PRIMARY KEY;
 
 
 ------- Education Dimension -------
@@ -263,17 +247,10 @@ months m, (SELECT e.educationkey, c.countrykey, p.populationkey, h.healthkey, q.
 	INNER JOIN quality_dim q
 		ON q.country_code = c.countrycode) x;
 
-ALTER TABLE fact
-	ADD CONSTRAINT fk_countrykey FOREIGN KEY (countrykey) REFERENCES country(countrykey),
-	--ADD CONSTRAINT fk_countrycode FOREIGN KEY (countrycode) REFERENCES country(countrycode),
-	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey),
-	ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey),
-	ADD CONSTRAINT fk_educationkey FOREIGN KEY (educationkey) REFERENCES education_dim(educationkey),
-	ADD CONSTRAINT fk_healthkey FOREIGN KEY (healthkey) REFERENCES health_dim(healthkey),
-	ADD CONSTRAINT fk_qualitykey FOREIGN KEY (qualitykey) REFERENCES quality_dim(qualitykey);
-------------------------- Load Development index data into a temporary table.
+------------------------- Prep & load the development & quality-of-life index measures.
 drop table if exists index_dev;
-/*
+drop table if exists qol_index;
+
 create table index_dev (
 	countryName text NOT NULL,
 	countrycode text NOT NULL,yr_2005 decimal,
@@ -284,10 +261,18 @@ COPY index_dev
 FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\development_index.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
--- Create a numeric column to store the developmentIndex data. 
-alter table fact drop if exists developmentindex;
+create table qol_index (
+	countryName text NOT NULL,
+	countrycode text NOT NULL, yr_2013_rank decimal,
+ 	yr_2014_h1_rank decimal,yr_2014_h2_rank decimal,yr_2015_h1_rank decimal,yr_2015_h2_rank decimal,yr_2016_h1_rank decimal,yr_2016_h2_rank decimal,yr_2017_h1_rank decimal,yr_2017_h2_rank decimal,yr_2018_h1_rank decimal,yr_2018_h2_rank decimal,yr_2019_h1_rank decimal,yr_2019_h2_rank decimal,yr_2020_h1_rank decimal,yr_2020_h2_rank decimal);
+
+COPY qol_index
+FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\qol_idx.csv' -- Edit local path
+DELIMITER ',' CSV HEADER;
+
+----------------------------------------- Update the fact table.
 alter table fact add developmentindex numeric;
--- Update the fact table.
+alter table fact add qol numeric;
 update fact as f
 	set developmentindex = (CASE
 		WHEN m.year = 2005 THEN i.yr_2005
@@ -306,30 +291,8 @@ update fact as f
 		WHEN m.year = 2018 THEN i.yr_2018
 		WHEN m.year = 2019 THEN i.yr_2019
 		WHEN m.year = 2020 THEN i.yr_2020
-	END)
-	FROM months m, index_dev i
-	WHERE i.countrycode = f.countrycode AND m.monthkey = f.monthkey;
-
-DROP TABLE index_dev;
-
----------------------------------------- Create temporary table to store Quality of Life data.
-drop table if exists qol_index;
-
-create table qol_index (
-	countryName text NOT NULL,
-	countrycode text NOT NULL, yr_2013_rank decimal,
- 	yr_2014_h1_rank decimal,yr_2014_h2_rank decimal,yr_2015_h1_rank decimal,yr_2015_h2_rank decimal,yr_2016_h1_rank decimal,yr_2016_h2_rank decimal,yr_2017_h1_rank decimal,yr_2017_h2_rank decimal,yr_2018_h1_rank decimal,yr_2018_h2_rank decimal,yr_2019_h1_rank decimal,yr_2019_h2_rank decimal,yr_2020_h1_rank decimal,yr_2020_h2_rank decimal);
-
-COPY qol_index
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\qol_idx.csv' -- Edit local path
-DELIMITER ',' CSV HEADER;
-
--- Create a numeric column to store the qol data.
-alter table fact drop if exists qol;
-alter table fact add qol numeric;
--- Update the fact table.
-update fact as f
-	set qol = (CASE
+	END),
+	qol = (CASE
 		WHEN m.year = 2013 THEN q.yr_2013_rank
 		WHEN m.year = 2014 AND m.quarter <= 2 THEN q.yr_2014_h1_rank
 		WHEN m.year = 2014 AND m.quarter > 2  THEN q.yr_2014_h2_rank
@@ -345,16 +308,29 @@ update fact as f
 		WHEN m.year = 2019 AND m.quarter > 2  THEN q.yr_2019_h2_rank
 		WHEN m.year = 2020 AND m.quarter <= 2 THEN q.yr_2020_h1_rank
 		WHEN m.year = 2020 AND m.quarter > 2  THEN q.yr_2020_h2_rank
+		ELSE q.yr_2013_rank
 	END)
-	FROM months m, qol_index q
-	WHERE q.countrycode = f.countrycode AND m.monthkey = f.monthkey;
+	FROM months m, index_dev i, qol_index q, country c
+	WHERE (i.countrycode = c.countrycode
+		OR q.countrycode = c.countrycode) 
+		AND f.countrykey = c.countrykey
+		AND f.monthkey = m.monthkey;
 
-DROP TABLE qol_index;
-*/
-
--- Add PK to the Fact Table.
+------------------------- Add PK to the Fact Table.
 ALTER TABLE fact DROP COLUMN IF EXISTS factkey;
 ALTER TABLE fact ADD COLUMN factkey serial PRIMARY KEY;
---ALTER TABLE fact ADD PRIMARY KEY (monthkey, countrycode, populationkey)
+------------------------- Set 'NOT NULL' constraints to the new measures
+ALTER TABLE factv2
+	ALTER COLUMN developmentindex SET NOT NULL,
+	ALTER COLUMN qol SET NOT NULL; 
+------------------------- Add FK references to the fact table
+ALTER TABLE fact
+	ADD CONSTRAINT fk_countrykey FOREIGN KEY (countrykey) REFERENCES country(countrykey),
+	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey),
+	ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey),
+	ADD CONSTRAINT fk_educationkey FOREIGN KEY (educationkey) REFERENCES education_dim(educationkey),
+	ADD CONSTRAINT fk_healthkey FOREIGN KEY (healthkey) REFERENCES health_dim(healthkey),
+	ADD CONSTRAINT fk_qualitykey FOREIGN KEY (qualitykey) REFERENCES quality_dim(qualitykey);
+	
 
 SELECT reltuples AS estimate FROM pg_class where relname = 'fact';
