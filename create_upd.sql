@@ -10,10 +10,10 @@ CREATE TABLE IF NOT EXISTS Months
 );
 
 COPY Months(name, Quarter, Year)
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\Month.csv' -- Edit local path
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/Month.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
-ALTER TABLE Months ADD COLUMN monthkey serial PRIMARY KEY;
+ALTER TABLE Months ADD COLUMN monthkey smallserial PRIMARY KEY;
 
 ------------------------- Create 'Country' Table
 DROP TABLE IF EXISTS country CASCADE;
@@ -51,7 +51,7 @@ COPY country(countrycode, countryname, capital, region, continent, incomegroup, 
 	series_name, series_code, yr_2005,yr_2006,yr_2007,yr_2008,yr_2009,yr_2010,
 	yr_2011, yr_2012, yr_2013, yr_2014, yr_2015, yr_2016, yr_2017, yr_2018,
 	yr_2019, yr_2020)
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\total_population.csv' -- Edit local path
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/total_population.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
 DELETE from country WHERE country.countryname NOT IN ('Canada', 'United States', 
@@ -91,7 +91,7 @@ SET capital = 'Washington' where countryname = 'United States';
 UPDATE country
 SET capital = 'Cape Town' where countryname = 'South Africa';
 
-ALTER TABLE country ADD COLUMN countrykey serial PRIMARY KEY;
+ALTER TABLE country ADD COLUMN countrykey smallserial PRIMARY KEY;
 
 
 ------- Education Dimension -------
@@ -121,11 +121,11 @@ yr_2005 varchar,
 );
 
 COPY education_dim
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_educationDimension.csv' --modify path 
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/raw_data_educationDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
 DELETE FROM education_dim WHERE country_code IS NULL;
-ALTER TABLE education_dim ADD COLUMN educationkey serial PRIMARY KEY;
+ALTER TABLE education_dim ADD COLUMN educationkey smallserial PRIMARY KEY;
 -----------Population Dimension ----------
 DROP TABLE IF EXISTS population_dim CASCADE;
 CREATE TABLE population_dim
@@ -153,11 +153,11 @@ yr_2005 varchar,
 );
 
 COPY population_dim
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_populationDimension.csv' --modify path 
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/raw_data_populationDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
 DELETE FROM population_dim WHERE country_code IS NULL;
-ALTER TABLE population_dim ADD COLUMN populationkey serial PRIMARY KEY;
+ALTER TABLE population_dim ADD COLUMN populationkey smallserial PRIMARY KEY;
 
 -----------Health Dimension ----------
 DROP TABLE IF EXISTS health_dim CASCADE;
@@ -186,11 +186,11 @@ yr_2005 varchar,
 );
 
 COPY health_dim
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_healthDimension.csv' --modify path 
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/raw_data_healthDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
 DELETE FROM health_dim WHERE country_code IS NULL;
-ALTER TABLE health_dim ADD COLUMN healthkey serial PRIMARY KEY;
+ALTER TABLE health_dim ADD COLUMN healthkey smallserial PRIMARY KEY;
 
 -----------Quality of Life Dimension ----------
 DROP TABLE IF EXISTS quality_dim CASCADE;
@@ -219,11 +219,14 @@ yr_2005 varchar,
 );
 
 COPY quality_dim 
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\raw_data_qualityDimension.csv' --modify path 
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/raw_data_qualityDimension.csv' --modify path 
 DELIMITER ','
 CSV HEADER;
 DELETE FROM quality_dim WHERE country_code IS NULL;
-ALTER TABLE quality_dim ADD COLUMN qualitykey serial PRIMARY KEY;
+ALTER TABLE quality_dim ADD COLUMN qualitykey smallserial PRIMARY KEY;
+
+--DELETE from quality_dim q WHERE q.series_code NOT IN ('SH.STA.HYGN.ZS', 'SH.MMR.WAGE.ZS', 'SH.H2O.SMDW.RU.ZS', 'SH.STA.HYGN.RU.ZS');
+
 ------------------------- Create Fact Table
 DROP TABLE IF EXISTS fact;
 /*
@@ -233,7 +236,8 @@ from months m, Country c, population_dim p, education_dim e, health_dim h/*,
 	(SELECT e.educationkey FROM Country c LEFT OUTER JOIN education_dim e ON e.country_code = c.countrycode) x*/
 where p.country_code=c.countrycode and e.country_code=c.countrycode and h.country_code = c.countrycode;*/
 
-SELECT m.monthkey, x.countrykey, x.educationkey, x.populationkey, x.healthkey, x.qualitykey  
+-- CURRENT VERSION:
+/*SELECT m.monthkey, x.countrykey, x.educationkey, x.populationkey, x.healthkey, x.qualitykey  
 INTO fact
 FROM
 months m, (SELECT e.educationkey, c.countrykey, p.populationkey, h.healthkey, q.qualitykey
@@ -245,7 +249,27 @@ months m, (SELECT e.educationkey, c.countrykey, p.populationkey, h.healthkey, q.
 	INNER JOIN health_dim h
 		ON h.country_code = c.countrycode
 	INNER JOIN quality_dim q
-		ON q.country_code = c.countrycode) x;
+		ON q.country_code = c.countrycode) x;*/
+ALTER TABLE IF EXISTS fact
+	DROP CONSTRAINT IF EXISTS fk_countrykey,
+	DROP CONSTRAINT IF EXISTS fk_monthkey,
+	DROP CONSTRAINT IF EXISTS fk_populationkey,
+	DROP CONSTRAINT IF EXISTS fk_educationkey,
+	DROP CONSTRAINT IF EXISTS fk_healthkey;
+	
+SELECT distinct m.monthkey, x.countrykey, x.educationkey, x.populationkey, x.healthkey
+INTO fact
+FROM
+months m, (SELECT e.educationkey, c.countrykey, p.populationkey, h.healthkey
+ 	FROM Country c 
+ 	 INNER JOIN education_dim e 
+ 		ON e.country_code = c.countrycode
+	 INNER JOIN population_dim p
+		ON p.country_code = c.countrycode
+	 INNER JOIN health_dim h
+		ON h.country_code = c.countrycode) x;
+	 /*INNER JOIN quality_dim q
+		ON q.country_code = c.countrycode) x;*/
 
 ------------------------- Prep & load the development & quality-of-life index measures.
 drop table if exists index_dev;
@@ -258,7 +282,7 @@ create table index_dev (
 );
 
 COPY index_dev
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\development_index.csv' -- Edit local path
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/development_index.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
 create table qol_index (
@@ -267,7 +291,7 @@ create table qol_index (
  	yr_2014_h1_rank decimal,yr_2014_h2_rank decimal,yr_2015_h1_rank decimal,yr_2015_h2_rank decimal,yr_2016_h1_rank decimal,yr_2016_h2_rank decimal,yr_2017_h1_rank decimal,yr_2017_h2_rank decimal,yr_2018_h1_rank decimal,yr_2018_h2_rank decimal,yr_2019_h1_rank decimal,yr_2019_h2_rank decimal,yr_2020_h1_rank decimal,yr_2020_h2_rank decimal);
 
 COPY qol_index
-FROM 'D:\University\5thYear\Winter 2022\CSI 4142 - Fundamentals of Data Science\Project\Deliverable03\CSI4142_project_WHB\spreadsheets\qol_idx.csv' -- Edit local path
+FROM '/Users/tate/Documents/CSI4142_project_WHB/spreadsheets/qol_idx.csv' -- Edit local path
 DELIMITER ',' CSV HEADER;
 
 ----------------------------------------- Update the fact table.
@@ -320,17 +344,17 @@ update fact as f
 ALTER TABLE fact DROP COLUMN IF EXISTS factkey;
 ALTER TABLE fact ADD COLUMN factkey serial PRIMARY KEY;
 ------------------------- Set 'NOT NULL' constraints to the new measures
-ALTER TABLE factv2
+ALTER TABLE fact
 	ALTER COLUMN developmentindex SET NOT NULL,
 	ALTER COLUMN qol SET NOT NULL; 
 ------------------------- Add FK references to the fact table
-ALTER TABLE fact
+/*ALTER TABLE fact
 	ADD CONSTRAINT fk_countrykey FOREIGN KEY (countrykey) REFERENCES country(countrykey),
 	ADD CONSTRAINT fk_monthkey FOREIGN KEY (monthkey) REFERENCES months(monthkey),
 	ADD CONSTRAINT fk_populationkey FOREIGN KEY (populationkey) REFERENCES population_dim(populationkey),
-	ADD CONSTRAINT fk_educationkey FOREIGN KEY (educationkey) REFERENCES education_dim(educationkey),
-	ADD CONSTRAINT fk_healthkey FOREIGN KEY (healthkey) REFERENCES health_dim(healthkey),
-	ADD CONSTRAINT fk_qualitykey FOREIGN KEY (qualitykey) REFERENCES quality_dim(qualitykey);
+	ADD CONSTRAINT fk_educationkey FOREIGN KEY (educationkey) REFERENCES education_dim(educationkey);--,
+	--ADD CONSTRAINT fk_healthkey FOREIGN KEY (healthkey) REFERENCES health_dim(healthkey);
+	--ADD CONSTRAINT fk_qualitykey FOREIGN KEY (qualitykey) REFERENCES quality_dim(qualitykey);*/
 	
 
-SELECT reltuples AS estimate FROM pg_class where relname = 'fact';
+--SELECT reltuples AS estimate FROM pg_class where relname = 'fact';
